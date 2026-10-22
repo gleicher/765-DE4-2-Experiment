@@ -270,3 +270,13 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
 - Saved final messages, run records, frozen answers, work copies and local transcripts.
   Updated runs.csv and RESULTS.md. Not committed. Coordinator clock time: 23:16–23:56.
 
+
+## 2026-10-22 00:08 — Luna, all five prompt variants
+
+- Added the five Luna rows and ran only them, sequentially from PLAIN, with fresh native openai.gpt-6-luna subagents and fork_turns="none". Each received only its folder instruction and exact prompt plus common tail. No corrective advice or debriefs.
+- All five declined submission work under the saved course AI policy. No answers or figures; SHOWOFF left three exploratory working files. Preserved final messages, run records, available transcripts, frozen answers directories, work, and original folders. No packages installed; prior Sol and Claude results preserved.
+- Collected token/timing telemetry, added Luna-only cache-write accounting and Standard-tier cost estimation to collect.py, and updated RESULTS.md without grading or modifying submissions. Existing collected rows remain unchanged.
+- Clock 2026-10-21 23:58:57–2026-10-22 00:08:34 CDT: 9:37; solver total 7:27. API-equivalent estimate (Standard tier, 30-minute cache writes): five solvers $0.086347, coordination $0.603692, combined $0.690039 through reporting snapshot. Actual tier/retention and billed cost unavailable. Details in results/Luna-session.json. Stopped after the five attempts for inspection.
+- Follow-up: discussed instructor authorization as a possible separate condition, without
+  launching another trial. Verified all five refusal records and final messages for
+  commit, linked the messages from RESULTS.md, and retained transcripts locally.

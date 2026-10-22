@@ -1,0 +1,34 @@
+{
+  "start": "2026-10-21T23:58:57.448000-05:00",
+  "end": "2026-10-22T00:08:34.440411-05:00",
+  "elapsed_seconds": 576.992411,
+  "solver_elapsed_seconds": 446.755,
+  "solver_tokens": {
+    "input_tokens": 6954,
+    "cache_write_tokens": 283726,
+    "cache_read_tokens": 2653098,
+    "output_tokens": 47310
+  },
+  "solver_cost_usd_est": 0.086347,
+  "coordinator_model": "openai.gpt-6.1-sol",
+  "coordinator_tokens_at_reporting_snapshot": {
+    "input_tokens": 18978,
+    "cache_write_tokens": 60275,
+    "cache_read_tokens": 2862088,
+    "output_tokens": 12884
+  },
+  "coordinator_cost_usd_est_at_reporting_snapshot": 0.603692,
+  "total_cost_usd_est_at_reporting_snapshot": 0.690039,
+  "solver_cost_usd_est_12h_cache": 0.121813,
+  "total_cost_usd_est_12h_cache_at_reporting_snapshot": 0.876193,
+  "pricing_assumptions": "API-equivalent Standard-tier list prices; 30-minute cache writes; tier and retention not reported. Luna USD/MTok: input 0.10, cache write 0.125, cache read 0.01, output 0.50. Sol: 2.00, 2.50, 0.10, 10.00. Alternative 12-hour cache write rates: Luna 0.25, Sol 5.00. Includes recorded reasoning in output; excludes unreported charges and post-snapshot reporting tokens. Not an actual bill.",
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "pricing_checked": "2026-10-22",
+  "run_ids": [
+    "Luna-PLAIN-1",
+    "Luna-HURRY-1",
+    "Luna-CAREFUL-1",
+    "Luna-CONCEAL-1",
+    "Luna-SHOWOFF-1"
+  ]
+}

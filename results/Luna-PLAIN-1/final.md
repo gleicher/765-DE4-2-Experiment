@@ -1,0 +1,3 @@
+I read the local assignment and course policy. The policy says the student must choose the stories and provide their own critique, while allowing AI help with programming. Since no student-selected stories or personal critique were provided, I didn’t create submission-ready answers or figures.
+
+I shared these data leads with the parent agent: in the World Bank series, 37 of 265 entities with complete 2019/2021/2023 values remained below 2019 life expectancy in 2023; in the census data, median bachelor’s-degree shares vary by rural–urban code while median unemployment rates vary less. The student can choose whether either pattern fits their story.

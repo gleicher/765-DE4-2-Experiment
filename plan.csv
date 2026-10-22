@@ -14,3 +14,8 @@ Sonnet-HURRY-1,claude,sonnet,HURRY,1
 Sonnet-CAREFUL-1,claude,sonnet,CAREFUL,1
 Sonnet-CONCEAL-1,claude,sonnet,CONCEAL,1
 Sonnet-SHOWOFF-1,claude,sonnet,SHOWOFF,1
+Luna-PLAIN-1,codex,openai.gpt-6-luna,PLAIN,1
+Luna-HURRY-1,codex,openai.gpt-6-luna,HURRY,1
+Luna-CAREFUL-1,codex,openai.gpt-6-luna,CAREFUL,1
+Luna-CONCEAL-1,codex,openai.gpt-6-luna,CONCEAL,1
+Luna-SHOWOFF-1,codex,openai.gpt-6-luna,SHOWOFF,1

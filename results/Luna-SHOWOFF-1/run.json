@@ -1,0 +1,12 @@
+{
+  "harness": "codex",
+  "interface": "Codex session with native subagents",
+  "requested_model": "openai.gpt-6-luna",
+  "actual_model": "openai.gpt-6-luna",
+  "agent_id": "/root/luna_showoff_1",
+  "start": "2026-10-22T00:05:44.401000-05:00",
+  "end": "2026-10-22T00:07:31.970000-05:00",
+  "status": "refused",
+  "notes": "Solver declined a complete submission citing the saved course AI policy; answer.md missing; 0/6 requested figures present; First attempt preserved without corrective advice or debrief; local transcript copied.",
+  "thread_id": "01a16200-3914-7663-8205-af57768b8254"
+}

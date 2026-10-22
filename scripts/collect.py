@@ -80,8 +80,16 @@ def transcript_usage(folder):
 def codex_usage(folder):
     """Token totals from a copied Codex session log (*.jsonl with token_count events)."""
     last = None
+    models = set()
     for path in folder.glob("*.jsonl"):
         for line in path.open():
+            if '"turn_context"' in line:
+                try:
+                    model = (json.loads(line).get("payload") or {}).get("model")
+                    if model:
+                        models.add(model)
+                except ValueError:
+                    pass
             if "total_token_usage" not in line:
                 continue
             try:
@@ -92,12 +100,24 @@ def codex_usage(folder):
     if not last:
         return None
     cached = last.get("cached_input_tokens", 0)
-    return {
+    totals = {
         "input_tokens": last.get("input_tokens", 0) - cached,
         "cache_read_tokens": cached,
         "output_tokens": last.get("output_tokens", 0),
         "output_tokens_est": last.get("output_tokens", 0),
     }
+    if models == {"openai.gpt-6-luna"}:
+        # API-equivalent estimate, Standard tier, 30-minute cache writes.
+        # Official pricing fetched 2026-10-22:
+        # https://developers.openai.com/api/docs/pricing
+        # USD/MTok: input .10, cache write .125, cache read .01, output .50.
+        writes = last.get("cache_write_input_tokens", 0)
+        totals["input_tokens"] -= writes
+        totals["cache_write_tokens"] = writes
+        totals["cost_usd_est"] = round(
+            (totals["input_tokens"] * .10 + writes * .125
+             + cached * .01 + totals["output_tokens"] * .50) / 1e6, 6)
+    return totals
 FIGURE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".pdf"}
 
 
