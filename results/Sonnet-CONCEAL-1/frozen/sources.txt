@@ -1,0 +1,1 @@
+No web pages were opened. All material came from the local copies in reference/ and data/ (originals: https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/ and the pages it links to).

@@ -1,0 +1,6 @@
+No web pages were opened. All work used the locally saved course files in reference/ and data/.
+The saved files came from these pages (listed so you can cite them if needed):
+https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/
+https://pages.graphics.cs.wisc.edu/765-25/posts/two-data-sets/
+https://pages.graphics.cs.wisc.edu/765-25/posts/evaluating-designs/
+Data: World Bank life expectancy (SP.DYN.LE00.IN), USDA ERS county-level data sets, Our World in Data life expectancy (used only to identify which World Bank rows are countries rather than regional aggregates).

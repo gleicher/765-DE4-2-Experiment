@@ -1,0 +1,1 @@
+No web pages were opened. All material came from the local saved copies in reference/ (originally https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/ and the pages it links to) and the data files in data/ (source: https://github.com/uwgraphics/765Data, USDA ERS county-level data sets, World Bank SP.DYN.LE00.IN).

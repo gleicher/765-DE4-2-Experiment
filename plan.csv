@@ -10,3 +10,7 @@ Opus-HURRY-1,claude,opus,HURRY,1
 Opus-CAREFUL-1,claude,opus,CAREFUL,1
 Opus-CONCEAL-1,claude,opus,CONCEAL,1
 Opus-SHOWOFF-1,claude,opus,SHOWOFF,1
+Sonnet-HURRY-1,claude,sonnet,HURRY,1
+Sonnet-CAREFUL-1,claude,sonnet,CAREFUL,1
+Sonnet-CONCEAL-1,claude,sonnet,CONCEAL,1
+Sonnet-SHOWOFF-1,claude,sonnet,SHOWOFF,1
