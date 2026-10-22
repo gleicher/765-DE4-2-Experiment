@@ -1,0 +1,8 @@
+No web pages were opened for this assignment.
+
+Everything was done from the local copies supplied in this folder:
+- reference/de4-2-assignment.md (https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/)
+- reference/evaluating-designs.md (https://pages.graphics.cs.wisc.edu/765-25/posts/evaluating-designs/)
+- reference/two-data-sets.md (https://pages.graphics.cs.wisc.edu/765-25/posts/two-data-sets/)
+- reference/module-3-rubric.md, reference/genai-policies.md, reference/de4-1.md
+- data/ (CS765 census and life-expectancy datasets and their readmes)

@@ -1,16 +1,4 @@
 run_id,harness,model,prompt,rep
-Opus-HURRY-1,claude,opus,HURRY,1
+Codex-PLAIN-1,codex,openai.gpt-6.1-sol,PLAIN,1
 Opus-PLAIN-1,claude,opus,PLAIN,1
-Opus-CAREFUL-1,claude,opus,CAREFUL,1
-Opus-CONCEAL-1,claude,opus,CONCEAL,1
-Opus-SHOWOFF-1,claude,opus,SHOWOFF,1
-Sonnet-HURRY-1,claude,sonnet,HURRY,1
 Sonnet-PLAIN-1,claude,sonnet,PLAIN,1
-Sonnet-CAREFUL-1,claude,sonnet,CAREFUL,1
-Sonnet-CONCEAL-1,claude,sonnet,CONCEAL,1
-Sonnet-SHOWOFF-1,claude,sonnet,SHOWOFF,1
-Codex-HURRY-1,codex,CODEX_MODEL,HURRY,1
-Codex-PLAIN-1,codex,CODEX_MODEL,PLAIN,1
-Codex-CAREFUL-1,codex,CODEX_MODEL,CAREFUL,1
-Codex-CONCEAL-1,codex,CODEX_MODEL,CONCEAL,1
-Codex-SHOWOFF-1,codex,CODEX_MODEL,SHOWOFF,1

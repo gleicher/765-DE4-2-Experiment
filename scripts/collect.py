@@ -1,54 +1,173 @@
-"""Collect one row per run into runs.csv from the results folders. Best-effort: fields a
-harness doesn't report are left blank. Usage: python3 scripts/collect.py [RESULTS_ROOT]"""
-import csv, json, os, sys, glob, datetime
-RES = os.path.expanduser(sys.argv[1] if len(sys.argv) > 1 else "~/de4-2-results")
-plan = {r["run_id"]: r for r in csv.DictReader(open("plan.csv"))}
-FIELDS = ["run_id","harness","model","prompt","rep","start","end","wall_min","exit",
-          "num_turns","tool_calls","input_tokens","cached_input_tokens","output_tokens",
-          "models_used","cost_usd_reported","n_figures","answer_words","sources_listed",
-          "snapshots","debrief","notes"]
-def rd(p):
-    try: return open(p).read().strip()
-    except OSError: return ""
+"""Count saved submissions and collect brief native-agent records into runs.csv.
+
+Run from the experiment directory with /opt/anaconda3/envs/p314/bin/python.
+Usage: scripts/collect.py [RESULTS_ROOT] (default: ./results)
+"""
+import csv
+import json
+import sys
+from datetime import datetime
+from pathlib import Path
+
+RESULTS = Path(sys.argv[1] if len(sys.argv) > 1 else "results").expanduser()
+FIELDS = [
+    "run_id", "harness", "interface", "requested_model", "actual_model", "prompt",
+    "rep", "agent_id", "status", "start", "end", "wall_min", "n_figures",
+    "answer_words", "n_work_files", "input_tokens", "cache_write_tokens",
+    "cache_read_tokens", "output_tokens", "output_tokens_est", "cost_usd_est",
+    "debrief", "notes",
+]
+# USD per million tokens: (input, cache write, cache read, output). Anthropic first-party list
+# prices as of 2026-10-06 (cache write = 1.25x input, 5-minute cache). Runs actually go
+# through a cloud provider, not Anthropic's API, so these are API-equivalent estimates. Add Codex once Mike supplies a price.
+PRICES = {
+    "claude-opus-5-5": (4.00, 5.00, 0.20, 20.00),
+    "claude-sonnet-5-5": (2.00, 2.50, 0.20, 10.00),
+}
+
+
+def transcript_usage(folder):
+    """Token totals from a Claude Code subagent transcript (agent-*.jsonl) in folder.
+
+    The transcript's output_tokens undercounts (it records usage from the start of each
+    streamed message), so output_tokens_est also estimates output from the visible content
+    at ~4 characters per token and takes the larger. Hidden thinking is not counted in
+    either, so both are lower bounds."""
+    usage, chars, models = {}, 0, set()
+    for path in folder.glob("agent-*.jsonl"):
+        messages = {}
+        for line in path.open():
+            try:
+                entry = json.loads(line)
+            except ValueError:
+                continue
+            message = entry.get("message") or {}
+            if entry.get("type") != "assistant" or not message.get("id"):
+                continue
+            messages[message["id"]] = message
+            for block in message.get("content") or []:
+                kind = block.get("type")
+                if kind == "text":
+                    chars += len(block.get("text", ""))
+                elif kind == "thinking":
+                    chars += len(block.get("thinking", ""))
+                elif kind == "tool_use":
+                    chars += len(json.dumps(block.get("input")))
+        for message in messages.values():
+            models.add(message.get("model", ""))
+            for key, value in (message.get("usage") or {}).items():
+                if isinstance(value, int):
+                    usage[key] = usage.get(key, 0) + value
+    if not usage:
+        return None
+    totals = {
+        "input_tokens": usage.get("input_tokens", 0),
+        "cache_write_tokens": usage.get("cache_creation_input_tokens", 0),
+        "cache_read_tokens": usage.get("cache_read_input_tokens", 0),
+        "output_tokens": usage.get("output_tokens", 0),
+    }
+    totals["output_tokens_est"] = max(totals["output_tokens"], chars // 4)
+    models.discard("")
+    price = PRICES.get(models.pop()) if len(models) == 1 else None
+    if price:
+        totals["cost_usd_est"] = round(
+            (totals["input_tokens"] * price[0] + totals["cache_write_tokens"] * price[1]
+             + totals["cache_read_tokens"] * price[2]
+             + totals["output_tokens_est"] * price[3]) / 1e6, 2)
+    return totals
+
+
+def codex_usage(folder):
+    """Token totals from a copied Codex session log (*.jsonl with token_count events)."""
+    last = None
+    for path in folder.glob("*.jsonl"):
+        for line in path.open():
+            if "total_token_usage" not in line:
+                continue
+            try:
+                info = (json.loads(line).get("payload") or {}).get("info") or {}
+            except ValueError:
+                continue
+            last = info.get("total_token_usage") or last
+    if not last:
+        return None
+    cached = last.get("cached_input_tokens", 0)
+    return {
+        "input_tokens": last.get("input_tokens", 0) - cached,
+        "cache_read_tokens": cached,
+        "output_tokens": last.get("output_tokens", 0),
+        "output_tokens_est": last.get("output_tokens", 0),
+    }
+FIGURE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".pdf"}
+
+
+def read_text(path):
+    return path.read_text() if path.is_file() else ""
+
+
+previous_notes = {}
+if Path("runs.csv").is_file():
+    with Path("runs.csv").open(newline="") as source:
+        previous_notes = {
+            row["run_id"]: row.get("notes", "") for row in csv.DictReader(source)
+        }
+
+with Path("plan.csv").open(newline="") as source:
+    plan = list(csv.DictReader(source))
+
 rows = []
-for rid, p in plan.items():
-    o = os.path.join(RES, rid)
-    if not os.path.isdir(o): continue
-    row = {k: "" for k in FIELDS}; row.update({k: p[k] for k in ["run_id","harness","model","prompt","rep"]})
-    row["start"], row["end"], row["exit"] = rd(f"{o}/start.txt"), rd(f"{o}/end.txt"), rd(f"{o}/turn1.exit")
+for planned in plan:
+    run_id = planned["run_id"]
+    folder = RESULTS / run_id
+    if not folder.is_dir():
+        continue
+    record_path = folder / "run.json"
     try:
-        t = lambda s: datetime.datetime.fromisoformat(s)
-        row["wall_min"] = round((t(row["end"]) - t(row["start"])).total_seconds() / 60, 1)
-    except Exception: pass
-    if p["harness"] == "claude" and os.path.exists(f"{o}/turn1.json"):
+        record = json.loads(read_text(record_path) or "{}")
+        if not isinstance(record, dict):
+            raise ValueError("expected a JSON object")
+    except (ValueError, OSError) as error:
+        sys.exit(f"Cannot collect {record_path}: {error}")
+
+    row = {field: "" for field in FIELDS}
+    row.update({key: planned[key] for key in ("run_id", "harness", "prompt", "rep")})
+    row["requested_model"] = record.get("requested_model", planned["model"])
+    for key in ("interface", "actual_model", "agent_id", "status", "start", "end"):
+        row[key] = record.get(key, "")
+    notes = previous_notes.get(run_id, "")
+    record_notes = record.get("notes", "")
+    if record_notes and record_notes not in notes:
+        notes = "; ".join(filter(None, (notes, record_notes)))
+    if not record_path.is_file():
+        warning = "missing run.json"
+        if warning not in notes:
+            notes = "; ".join(filter(None, (notes, warning)))
+    if row["start"] and row["end"]:
         try:
-            j = json.load(open(f"{o}/turn1.json"))
-            u = j.get("usage", {})
-            row["num_turns"] = j.get("num_turns", "")
-            row["input_tokens"] = u.get("input_tokens", "")
-            row["cached_input_tokens"] = (u.get("cache_read_input_tokens") or 0) + (u.get("cache_creation_input_tokens") or 0)
-            row["output_tokens"] = u.get("output_tokens", "")
-            row["cost_usd_reported"] = j.get("total_cost_usd", "")
-            mu = j.get("modelUsage") or {}
-            row["models_used"] = ";".join(f"{m}:{v.get('costUSD','')}" for m, v in mu.items())
-        except Exception as e: row["notes"] += f"turn1.json unreadable ({e}); "
-    if p["harness"] == "codex" and os.path.exists(f"{o}/turn1.jsonl"):
-        last, tools = None, 0
-        for l in open(f"{o}/turn1.jsonl"):
-            try: e = json.loads(l)
-            except Exception: continue
-            s = json.dumps(e)
-            if "token" in s and "usage" in s: last = e
-            if '"exec_command' in s or '"tool_call' in s or '"function_call' in s: tools += 1
-        row["tool_calls"] = tools or ""
-        if last: row["notes"] += "codex usage event: " + json.dumps(last)[:300] + "; "
-    fr = f"{o}/frozen"
-    row["n_figures"] = len(glob.glob(f"{fr}/figures/*"))
-    row["answer_words"] = len(rd(f"{fr}/answer.md").split())
-    row["sources_listed"] = len([l for l in rd(f"{fr}/sources.txt").splitlines() if l.strip()])
-    row["snapshots"] = ";".join(sorted(os.path.basename(x) for x in glob.glob(f"{o}/snapshots/t*")))
-    row["debrief"] = "yes" if os.path.exists(f"{o}/debrief/ABOUT.md") else "no"
+            duration = datetime.fromisoformat(row["end"]) - datetime.fromisoformat(row["start"])
+            row["wall_min"] = round(duration.total_seconds() / 60, 1)
+        except (ValueError, TypeError):
+            warning = "unreadable timestamps"
+            if warning not in notes:
+                notes = "; ".join(filter(None, (notes, warning)))
+    frozen = folder / "frozen"
+    row["n_figures"] = sum(
+        file.is_file() and file.suffix.lower() in FIGURE_SUFFIXES
+        for file in (frozen / "figures").rglob("*")
+    )
+    row["answer_words"] = len(read_text(frozen / "answer.md").split())
+    row["n_work_files"] = sum(file.is_file() for file in (folder / "work").rglob("*"))
+    tokens = (transcript_usage if planned["harness"] == "claude" else codex_usage)(folder)
+    if tokens:
+        row.update(tokens)
+    elif "no token data" not in notes:
+        notes = "; ".join(filter(None, (notes, "no token data (transcript not copied?)")))
+    row["debrief"] = "yes" if (folder / "debrief" / "ABOUT.md").is_file() else "no"
+    row["notes"] = notes
     rows.append(row)
-with open("runs.csv", "w", newline="") as f:
-    w = csv.DictWriter(f, FIELDS); w.writeheader(); w.writerows(rows)
+
+with Path("runs.csv").open("w", newline="") as output:
+    writer = csv.DictWriter(output, FIELDS)
+    writer.writeheader()
+    writer.writerows(rows)
 print(f"{len(rows)} runs written to runs.csv")

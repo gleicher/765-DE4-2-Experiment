@@ -1,0 +1,12 @@
+{
+  "harness": "claude",
+  "interface": "Claude Code (VSCode) coordinator, Agent tool general-purpose subagent",
+  "requested_model": "opus",
+  "actual_model": "claude-opus-5-5",
+  "agent_id": "a027af8a7b1725b56",
+  "start": "2026-10-21T20:33:25-05:00",
+  "end": "2026-10-21T20:49:13-05:00",
+  "status": "completed",
+  "notes": "Complete: answer.md (Q1-20, ~3.1k words), sources.txt (no web pages opened), all 6 figures, work/ with README and make_all.sh. Python p314 (pandas/numpy/matplotlib); no installs. Q20 discloses AI did everything incl. critique and flags course policy that work/critique should be the student's own. Dropped Central African Republic as implausible; notes census CSV is comma/Latin-1 despite readme. Figures include outside knowledge (HIV/AIDS). ~195k subagent tokens, 66 tool uses, 15.6 min. Coordinator deviation: launch prompt prefixed with 'read its CLAUDE.md'. Subagent also auto-loads the experiment's root CLAUDE.md/AGENTS.md (mentions Mike/'go'/RUNBOOK) because it shares the coordinator's project. Transcript check (2026-10-21): solver loaded the root AGENTS.md (neutral: only 'if Mike says go, follow RUNBOOK') and the user-level ~/.claude instructions; it never read RUNBOOK/PROMPTS/README or anything outside its run folder, and never referred to them. It used the bundled dataviz skill (palette reference).",
+  "transcript": "transcript.jsonl copied here as agent-a027af8a7b1725b56.jsonl (from ~/.claude/projects/.../a76cdc76-.../subagents/)"
+}

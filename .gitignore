@@ -1,0 +1,8 @@
+runs/
+__pycache__/
+# Transcripts and session logs stay local: they contain the user-level harness config.
+# collect.py reads them from disk; only its derived counts go into git.
+results/*/agent-*.jsonl
+results/*/agent-*.meta.json
+results/*/rollout-*.jsonl
+.private-terms
