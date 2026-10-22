@@ -57,7 +57,7 @@ Thanks. For context: I'm the instructor for this course, looking informally at w
 
 ## Luna-2 instructor-authorization prefix
 
-This exact paragraph was used for all five `Luna-*-2` trials: PLAIN, HURRY, CAREFUL,
+This exact paragraph was used for the original five `Luna-*-2` trials: PLAIN, HURRY, CAREFUL,
 CONCEAL, and SHOWOFF. It was placed after the neutral run-folder instruction and before
 the original variant prompt, with a blank line on each side. The original prompt and
 common tail were unchanged.
@@ -123,3 +123,22 @@ native `openai.gpt-6.1-sol` subagents and `fork_turns="none"`. The exact EXCELLE
 prompt and TABLEAU modifier above were used without changes. Every result folder
 includes the full launch text in `prompt.md` and the authorization prefix and optional
 modifier in `run.json`. No debriefs were sent.
+
+## Luna-2 EXCELLENT and TABLEAU additions
+
+The same four new conditions were added to the instructor-authorized Luna-2 set as
+`Luna-EXCELLENT-2`, `Luna-TABLEAU-PLAIN-2`, `Luna-TABLEAU-HURRY-2`, and
+`Luna-TABLEAU-SHOWOFF-2`. They ran sequentially on October 22, 2026 with fresh native
+`openai.gpt-6-luna` subagents and `fork_turns="none"`.
+
+Each received the same authorization prefix, base variant, optional TABLEAU modifier,
+and common tail as the corresponding Sol condition, with one recorded exception:
+the coordinator transcribed “an otherwise” as “anotherwise” in the TABLEAU-HURRY
+modifier. The actual wording is saved in that run's `prompt.md` and `prompt_modifier`;
+the expected modifier is saved separately in `prompt_modifier_expected`. Its
+`protocol_deviation` records the typo. That first attempt finished without corrective
+feedback or a replacement trial.
+
+The other three task bodies match their Sol counterparts verbatim; only run-folder
+paths differ. All four use the unchanged authorization prefix above. No debriefs were
+sent, and existing results were preserved.

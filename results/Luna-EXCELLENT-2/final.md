@@ -1,0 +1,3 @@
+Completed the six-visualization exemplar. Numbered responses are in [answer.md](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-EXCELLENT-2/answers/answer.md); the PNGs are in [answers/figures](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-EXCELLENT-2/answers/figures). Regeneration instructions and the script are in [work/README.md](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-EXCELLENT-2/work/README.md) and [make_figures.py](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-EXCELLENT-2/work/make_figures.py).
+
+The script generated all six figures successfully. I assumed the non-CLO critique route because no peer reviewer information was provided. I did not open external pages, so no sources list was needed.

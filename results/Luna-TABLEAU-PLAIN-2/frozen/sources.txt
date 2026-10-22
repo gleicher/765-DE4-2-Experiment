@@ -1,0 +1,12 @@
+No web pages were opened for this response.
+
+Materials used were supplied locally:
+- reference/de4-2-assignment.md
+- reference/evaluating-designs.md
+- reference/module-3-rubric.md
+- reference/genai-policies.md
+- reference/images/to-critique.png
+- data/lifespan_dataset_1960.csv
+- data/full_census_dataset.csv
+- data/aggregate_census_dataset.csv
+- data/life-expectancy-owid/life-expectancy-owid.csv

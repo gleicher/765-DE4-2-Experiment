@@ -33,3 +33,7 @@ Sol-EXCELLENT-1,codex,openai.gpt-6.1-sol,EXCELLENT,1
 Sol-TABLEAU-PLAIN-1,codex,openai.gpt-6.1-sol,TABLEAU-PLAIN,1
 Sol-TABLEAU-HURRY-1,codex,openai.gpt-6.1-sol,TABLEAU-HURRY,1
 Sol-TABLEAU-SHOWOFF-1,codex,openai.gpt-6.1-sol,TABLEAU-SHOWOFF,1
+Luna-EXCELLENT-2,codex,openai.gpt-6-luna,EXCELLENT,2
+Luna-TABLEAU-PLAIN-2,codex,openai.gpt-6-luna,TABLEAU-PLAIN,2
+Luna-TABLEAU-HURRY-2,codex,openai.gpt-6-luna,TABLEAU-HURRY,2
+Luna-TABLEAU-SHOWOFF-2,codex,openai.gpt-6-luna,TABLEAU-SHOWOFF,2

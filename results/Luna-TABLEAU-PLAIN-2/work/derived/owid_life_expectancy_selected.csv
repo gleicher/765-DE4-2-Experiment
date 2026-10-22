@@ -1,0 +1,458 @@
+Entity,Code,Year,Period life expectancy at birth
+Japan,JPN,1900,38.6
+Japan,JPN,1905,39.222
+Japan,JPN,1910,39.974
+Japan,JPN,1915,40.899
+Japan,JPN,1920,42.044
+Japan,JPN,1922,42.616
+Japan,JPN,1927,45.659
+Japan,JPN,1935,48.242
+Japan,JPN,1945,30.537
+Japan,JPN,1947,51.71
+Japan,JPN,1948,56.84
+Japan,JPN,1949,57.72
+Japan,JPN,1950,59.2548
+Japan,JPN,1951,60.9885
+Japan,JPN,1952,62.9959
+Japan,JPN,1953,63.3252
+Japan,JPN,1954,64.5367
+Japan,JPN,1955,65.7115
+Japan,JPN,1956,65.5598
+Japan,JPN,1957,65.4387
+Japan,JPN,1958,67.0429
+Japan,JPN,1959,67.4564
+Japan,JPN,1960,67.718
+Japan,JPN,1961,68.3705
+Japan,JPN,1962,68.6668
+Japan,JPN,1963,69.7463
+Japan,JPN,1964,70.1973
+Japan,JPN,1965,70.257
+Japan,JPN,1966,71.0552
+Japan,JPN,1967,71.401
+Japan,JPN,1968,71.6718
+Japan,JPN,1969,71.9225
+Japan,JPN,1970,72.0073
+Japan,JPN,1971,72.827
+Japan,JPN,1972,73.2584
+Japan,JPN,1973,73.4218
+Japan,JPN,1974,73.8494
+Japan,JPN,1975,74.3569
+Japan,JPN,1976,74.7611
+Japan,JPN,1977,75.3257
+Japan,JPN,1978,75.6571
+Japan,JPN,1979,76.1671
+Japan,JPN,1980,76.1408
+Japan,JPN,1981,76.5629
+Japan,JPN,1982,77.0723
+Japan,JPN,1983,77.1069
+Japan,JPN,1984,77.5068
+Japan,JPN,1985,77.799
+Japan,JPN,1986,78.2119
+Japan,JPN,1987,78.6307
+Japan,JPN,1988,78.5454
+Japan,JPN,1989,78.9799
+Japan,JPN,1990,78.9928
+Japan,JPN,1991,79.262
+Japan,JPN,1992,79.303
+Japan,JPN,1993,79.4461
+Japan,JPN,1994,79.8366
+Japan,JPN,1995,79.6837
+Japan,JPN,1996,80.3627
+Japan,JPN,1997,80.5836
+Japan,JPN,1998,80.6487
+Japan,JPN,1999,80.6129
+Japan,JPN,2000,81.1788
+Japan,JPN,2001,81.5101
+Japan,JPN,2002,81.7952
+Japan,JPN,2003,81.854
+Japan,JPN,2004,82.1275
+Japan,JPN,2005,82.0073
+Japan,JPN,2006,82.3699
+Japan,JPN,2007,82.5488
+Japan,JPN,2008,82.6332
+Japan,JPN,2009,82.9699
+Japan,JPN,2010,82.916
+Japan,JPN,2011,82.6705
+Japan,JPN,2012,83.1676
+Japan,JPN,2013,83.4018
+Japan,JPN,2014,83.6434
+Japan,JPN,2015,83.8832
+Japan,JPN,2016,84.0568
+Japan,JPN,2017,84.1891
+Japan,JPN,2018,84.289
+Japan,JPN,2019,84.4177
+Japan,JPN,2020,84.6703
+Japan,JPN,2021,84.55
+Japan,JPN,2022,84.0541
+Japan,JPN,2023,84.7123
+Sweden,SWE,1900,52.23
+Sweden,SWE,1901,52.88
+Sweden,SWE,1902,54.7
+Sweden,SWE,1903,54.98
+Sweden,SWE,1904,55.27
+Sweden,SWE,1905,54.42
+Sweden,SWE,1906,56.56
+Sweden,SWE,1907,56.87
+Sweden,SWE,1908,56.33
+Sweden,SWE,1909,58.34
+Sweden,SWE,1910,57.74
+Sweden,SWE,1911,57.99
+Sweden,SWE,1912,57.73
+Sweden,SWE,1913,58.59
+Sweden,SWE,1914,58.15
+Sweden,SWE,1915,57.1
+Sweden,SWE,1916,58.12
+Sweden,SWE,1917,58.8
+Sweden,SWE,1918,49.72
+Sweden,SWE,1919,56.42
+Sweden,SWE,1920,58.91
+Sweden,SWE,1921,60.98
+Sweden,SWE,1922,61.07
+Sweden,SWE,1923,62.91
+Sweden,SWE,1924,61.94
+Sweden,SWE,1925,62.51
+Sweden,SWE,1926,62.74
+Sweden,SWE,1927,61.56
+Sweden,SWE,1928,62.2
+Sweden,SWE,1929,62.29
+Sweden,SWE,1930,63.17
+Sweden,SWE,1931,62.71
+Sweden,SWE,1932,63.93
+Sweden,SWE,1933,64.8
+Sweden,SWE,1934,64.96
+Sweden,SWE,1935,64.86
+Sweden,SWE,1936,64.6
+Sweden,SWE,1937,64.61
+Sweden,SWE,1938,65.54
+Sweden,SWE,1939,66.38
+Sweden,SWE,1940,66.74
+Sweden,SWE,1941,66.97
+Sweden,SWE,1942,68.96
+Sweden,SWE,1943,68.7
+Sweden,SWE,1944,67.72
+Sweden,SWE,1945,68.33
+Sweden,SWE,1946,69.51
+Sweden,SWE,1947,69.48
+Sweden,SWE,1948,70.73
+Sweden,SWE,1949,70.81
+Sweden,SWE,1950,71.1394
+Sweden,SWE,1951,71.3638
+Sweden,SWE,1952,71.8453
+Sweden,SWE,1953,71.9037
+Sweden,SWE,1954,72.3527
+Sweden,SWE,1955,72.5862
+Sweden,SWE,1956,72.6602
+Sweden,SWE,1957,72.4909
+Sweden,SWE,1958,73.1526
+Sweden,SWE,1959,73.3708
+Sweden,SWE,1960,73.0365
+Sweden,SWE,1961,73.4885
+Sweden,SWE,1962,73.3506
+Sweden,SWE,1963,73.5328
+Sweden,SWE,1964,73.7054
+Sweden,SWE,1965,73.8726
+Sweden,SWE,1966,74.101
+Sweden,SWE,1967,74.1466
+Sweden,SWE,1968,74.0005
+Sweden,SWE,1969,74.1135
+Sweden,SWE,1970,74.6641
+Sweden,SWE,1971,74.6006
+Sweden,SWE,1972,74.7048
+Sweden,SWE,1973,74.8655
+Sweden,SWE,1974,74.9693
+Sweden,SWE,1975,74.9778
+Sweden,SWE,1976,74.9728
+Sweden,SWE,1977,75.3933
+Sweden,SWE,1978,75.4837
+Sweden,SWE,1979,75.523
+Sweden,SWE,1980,75.7431
+Sweden,SWE,1981,76.0405
+Sweden,SWE,1982,76.3498
+Sweden,SWE,1983,76.5802
+Sweden,SWE,1984,76.8407
+Sweden,SWE,1985,76.6911
+Sweden,SWE,1986,76.9546
+Sweden,SWE,1987,77.1087
+Sweden,SWE,1988,76.9978
+Sweden,SWE,1989,77.654
+Sweden,SWE,1990,77.5886
+Sweden,SWE,1991,77.7285
+Sweden,SWE,1992,78.0712
+Sweden,SWE,1993,78.1356
+Sweden,SWE,1994,78.7471
+Sweden,SWE,1995,78.8222
+Sweden,SWE,1996,79.0447
+Sweden,SWE,1997,79.2724
+Sweden,SWE,1998,79.4163
+Sweden,SWE,1999,79.5085
+Sweden,SWE,2000,79.7387
+Sweden,SWE,2001,79.8363
+Sweden,SWE,2002,79.9349
+Sweden,SWE,2003,80.1951
+Sweden,SWE,2004,80.5465
+Sweden,SWE,2005,80.6213
+Sweden,SWE,2006,80.8318
+Sweden,SWE,2007,80.97
+Sweden,SWE,2008,81.1373
+Sweden,SWE,2009,81.3633
+Sweden,SWE,2010,81.519
+Sweden,SWE,2011,81.7584
+Sweden,SWE,2012,81.7299
+Sweden,SWE,2013,81.9354
+Sweden,SWE,2014,82.2241
+Sweden,SWE,2015,82.1844
+Sweden,SWE,2016,82.3391
+Sweden,SWE,2017,82.4377
+Sweden,SWE,2018,82.5321
+Sweden,SWE,2019,83.0518
+Sweden,SWE,2020,82.4271
+Sweden,SWE,2021,83.0196
+Sweden,SWE,2022,83.046
+Sweden,SWE,2023,83.2624
+United Kingdom,GBR,1900,45.62
+United Kingdom,GBR,1901,46.93
+United Kingdom,GBR,1902,48.355
+United Kingdom,GBR,1903,49.54
+United Kingdom,GBR,1904,48.145
+United Kingdom,GBR,1905,49.92
+United Kingdom,GBR,1906,49.595
+United Kingdom,GBR,1907,50.565
+United Kingdom,GBR,1908,51.02
+United Kingdom,GBR,1909,51.67
+United Kingdom,GBR,1910,53.255
+United Kingdom,GBR,1911,51.225
+United Kingdom,GBR,1912,54.31
+United Kingdom,GBR,1913,53.355
+United Kingdom,GBR,1914,53.21
+United Kingdom,GBR,1915,51.205
+United Kingdom,GBR,1916,54.24
+United Kingdom,GBR,1917,54.155
+United Kingdom,GBR,1918,47.275
+United Kingdom,GBR,1919,54.31
+United Kingdom,GBR,1920,57.255
+United Kingdom,GBR,1921,58.085
+United Kingdom,GBR,1922,57.02
+United Kingdom,GBR,1923,59.3
+United Kingdom,GBR,1924,58.07
+United Kingdom,GBR,1925,58.42
+United Kingdom,GBR,1926,59.56
+United Kingdom,GBR,1927,58.95
+United Kingdom,GBR,1928,59.91
+United Kingdom,GBR,1929,57.62
+United Kingdom,GBR,1930,60.77
+United Kingdom,GBR,1931,60.0
+United Kingdom,GBR,1932,60.52
+United Kingdom,GBR,1933,60.58
+United Kingdom,GBR,1934,61.3
+United Kingdom,GBR,1935,61.96
+United Kingdom,GBR,1936,61.75
+United Kingdom,GBR,1937,61.79
+United Kingdom,GBR,1938,63.23
+United Kingdom,GBR,1939,63.61
+United Kingdom,GBR,1940,60.9
+United Kingdom,GBR,1941,61.29
+United Kingdom,GBR,1942,63.98
+United Kingdom,GBR,1943,64.04
+United Kingdom,GBR,1944,64.8
+United Kingdom,GBR,1945,65.76
+United Kingdom,GBR,1946,66.24
+United Kingdom,GBR,1947,66.44
+United Kingdom,GBR,1948,68.37
+United Kingdom,GBR,1949,68.11
+United Kingdom,GBR,1950,68.631
+United Kingdom,GBR,1951,68.2386
+United Kingdom,GBR,1952,69.5267
+United Kingdom,GBR,1953,69.8047
+United Kingdom,GBR,1954,70.1715
+United Kingdom,GBR,1955,70.1344
+United Kingdom,GBR,1956,70.4055
+United Kingdom,GBR,1957,70.5245
+United Kingdom,GBR,1958,70.7048
+United Kingdom,GBR,1959,70.8276
+United Kingdom,GBR,1960,71.0251
+United Kingdom,GBR,1961,70.7895
+United Kingdom,GBR,1962,70.8576
+United Kingdom,GBR,1963,70.7609
+United Kingdom,GBR,1964,71.5407
+United Kingdom,GBR,1965,71.5157
+United Kingdom,GBR,1966,71.4329
+United Kingdom,GBR,1967,72.0706
+United Kingdom,GBR,1968,71.6842
+United Kingdom,GBR,1969,71.6625
+United Kingdom,GBR,1970,71.8819
+United Kingdom,GBR,1971,72.234
+United Kingdom,GBR,1972,71.9882
+United Kingdom,GBR,1973,72.1846
+United Kingdom,GBR,1974,72.376
+United Kingdom,GBR,1975,72.65
+United Kingdom,GBR,1976,72.6341
+United Kingdom,GBR,1977,73.1111
+United Kingdom,GBR,1978,73.0429
+United Kingdom,GBR,1979,73.1607
+United Kingdom,GBR,1980,73.5906
+United Kingdom,GBR,1981,73.9162
+United Kingdom,GBR,1982,74.0388
+United Kingdom,GBR,1983,74.2927
+United Kingdom,GBR,1984,74.6741
+United Kingdom,GBR,1985,74.5362
+United Kingdom,GBR,1986,74.7948
+United Kingdom,GBR,1987,75.147
+United Kingdom,GBR,1988,75.2593
+United Kingdom,GBR,1989,75.3971
+United Kingdom,GBR,1990,75.7377
+United Kingdom,GBR,1991,75.9108
+United Kingdom,GBR,1992,76.3074
+United Kingdom,GBR,1993,76.1602
+United Kingdom,GBR,1994,76.7198
+United Kingdom,GBR,1995,76.614
+United Kingdom,GBR,1996,76.8719
+United Kingdom,GBR,1997,77.1389
+United Kingdom,GBR,1998,77.2745
+United Kingdom,GBR,1999,77.3728
+United Kingdom,GBR,2000,77.8491
+United Kingdom,GBR,2001,78.1208
+United Kingdom,GBR,2002,78.237
+United Kingdom,GBR,2003,78.3302
+United Kingdom,GBR,2004,78.8998
+United Kingdom,GBR,2005,79.1061
+United Kingdom,GBR,2006,79.3474
+United Kingdom,GBR,2007,79.5337
+United Kingdom,GBR,2008,79.6554
+United Kingdom,GBR,2009,80.1556
+United Kingdom,GBR,2010,80.3908
+United Kingdom,GBR,2011,80.7961
+United Kingdom,GBR,2012,80.8594
+United Kingdom,GBR,2013,80.9232
+United Kingdom,GBR,2014,81.1529
+United Kingdom,GBR,2015,80.919
+United Kingdom,GBR,2016,81.0675
+United Kingdom,GBR,2017,81.164
+United Kingdom,GBR,2018,81.1229
+United Kingdom,GBR,2019,81.4426
+United Kingdom,GBR,2020,80.3854
+United Kingdom,GBR,2021,80.708
+United Kingdom,GBR,2022,81.0744
+United Kingdom,GBR,2023,81.3015
+United States,USA,1901,49.3
+United States,USA,1902,50.5
+United States,USA,1903,50.6
+United States,USA,1904,49.6
+United States,USA,1905,50.3
+United States,USA,1906,50.1
+United States,USA,1907,50.2
+United States,USA,1908,51.9
+United States,USA,1909,52.8
+United States,USA,1910,51.8
+United States,USA,1911,53.4
+United States,USA,1912,54.1
+United States,USA,1913,53.5
+United States,USA,1914,54.6
+United States,USA,1915,55.1
+United States,USA,1916,54.2
+United States,USA,1917,54.0
+United States,USA,1918,47.2
+United States,USA,1919,55.3
+United States,USA,1920,55.4
+United States,USA,1921,58.2
+United States,USA,1922,58.1
+United States,USA,1923,57.5
+United States,USA,1924,58.5
+United States,USA,1925,58.5
+United States,USA,1926,57.9
+United States,USA,1927,59.4
+United States,USA,1928,58.3
+United States,USA,1929,58.5
+United States,USA,1930,59.6
+United States,USA,1931,60.3
+United States,USA,1932,61.0
+United States,USA,1933,60.9
+United States,USA,1934,60.19
+United States,USA,1935,60.91
+United States,USA,1936,60.35
+United States,USA,1937,61.03
+United States,USA,1938,62.39
+United States,USA,1939,63.07
+United States,USA,1940,63.22
+United States,USA,1941,63.79
+United States,USA,1942,64.54
+United States,USA,1943,64.36
+United States,USA,1944,65.06
+United States,USA,1945,65.59
+United States,USA,1946,66.13
+United States,USA,1947,66.8
+United States,USA,1948,67.22
+United States,USA,1949,67.63
+United States,USA,1950,68.0669
+United States,USA,1951,68.1743
+United States,USA,1952,68.38
+United States,USA,1953,68.7112
+United States,USA,1954,69.4996
+United States,USA,1955,69.5573
+United States,USA,1956,69.643
+United States,USA,1957,69.4183
+United States,USA,1958,69.6733
+United States,USA,1959,69.9044
+United States,USA,1960,69.8293
+United States,USA,1961,70.2536
+United States,USA,1962,70.1162
+United States,USA,1963,69.9428
+United States,USA,1964,70.1993
+United States,USA,1965,70.2495
+United States,USA,1966,70.21
+United States,USA,1967,70.5202
+United States,USA,1968,70.2004
+United States,USA,1969,70.4763
+United States,USA,1970,70.7343
+United States,USA,1971,71.0979
+United States,USA,1972,71.1779
+United States,USA,1973,71.3966
+United States,USA,1974,71.9592
+United States,USA,1975,72.5434
+United States,USA,1976,72.8448
+United States,USA,1977,73.2267
+United States,USA,1978,73.4091
+United States,USA,1979,73.8331
+United States,USA,1980,73.73
+United States,USA,1981,74.1174
+United States,USA,1982,74.4635
+United States,USA,1983,74.5528
+United States,USA,1984,74.6747
+United States,USA,1985,74.65
+United States,USA,1986,74.7284
+United States,USA,1987,74.8599
+United States,USA,1988,74.8333
+United States,USA,1989,75.1091
+United States,USA,1990,75.3743
+United States,USA,1991,75.5243
+United States,USA,1992,75.779
+United States,USA,1993,75.5677
+United States,USA,1994,75.7381
+United States,USA,1995,75.8522
+United States,USA,1996,76.1749
+United States,USA,1997,76.4981
+United States,USA,1998,76.6592
+United States,USA,1999,76.6691
+United States,USA,2000,76.8058
+United States,USA,2001,76.9194
+United States,USA,2002,76.9883
+United States,USA,2003,77.1369
+United States,USA,2004,77.535
+United States,USA,2005,77.5264
+United States,USA,2006,77.7976
+United States,USA,2007,78.0471
+United States,USA,2008,78.1273
+United States,USA,2009,78.4758
+United States,USA,2010,78.6681
+United States,USA,2011,78.7023
+United States,USA,2012,78.8169
+United States,USA,2013,78.8175
+United States,USA,2014,78.8785
+United States,USA,2015,78.7219
+United States,USA,2016,78.686
+United States,USA,2017,78.6483
+United States,USA,2018,78.7997
+United States,USA,2019,78.916
+United States,USA,2020,77.0115
+United States,USA,2021,76.3836
+United States,USA,2022,77.9789
+United States,USA,2023,79.3043

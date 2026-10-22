@@ -42,6 +42,11 @@
 | Sol-TABLEAU-HURRY-1 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 4.1 | 6/6 | 2126 | 10 | no |
 | Sol-TABLEAU-SHOWOFF-1 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 4.7 | 6/6 | 2142 | 9 | no |
 
+| Luna-EXCELLENT-2 (instructor prefix) | openai.gpt-6-luna (native subagent) | completed | 10.5 | 6/6 | 1424 | 4 | no |
+| Luna-TABLEAU-PLAIN-2 (instructor prefix) | openai.gpt-6-luna (native subagent) | completed | 6.5 | 6/6 | 1282 | 7 | no |
+| Luna-TABLEAU-HURRY-2 (instructor prefix) | openai.gpt-6-luna (native subagent) | completed | 5.8 | 6/6 | 1216 | 3 | no |
+| Luna-TABLEAU-SHOWOFF-2 (instructor prefix) | openai.gpt-6-luna (native subagent) | completed | 3.6 | 6/6 | 1221 | 4 | no |
+
 ## Observations
 
 **Codex-PLAIN-1**
@@ -495,3 +500,54 @@ Coordination estimate: **$1.167889**; four solvers plus coordination: **$2.56656
 
 Available solver token totals: 33,738 ordinary input, 231,053 cache writes, 3,138,549 cache reads, 43,971 output.
 Pricing assumptions reuse the Sol-2 API-equivalent Standard tier with 30-minute cache writes: USD per million Sol tokens, $2.00 ordinary input / $2.50 cache write / $0.10 cache read / $10.00 output, for solvers and coordination. Official source checked October 22, 2026 (`https://developers.openai.com/api/docs/pricing`). Includes recorded reasoning output. Actual tier, retention, and billed amount are unavailable; unavailable telemetry, unreported charges, and reporting tokens after the snapshot are excluded. Details are in results/Sol-EXCELLENT-TABLEAU-session.json.
+
+
+**Luna-2 — EXCELLENT and TABLEAU additions**
+- Ran only EXCELLENT, TABLEAU-PLAIN, TABLEAU-HURRY, and TABLEAU-SHOWOFF, in that order and sequentially. Each used a fresh native openai.gpt-6-luna subagent with fork_turns="none". These new conditions use repetition 2 as additions to the instructor-authorized Luna-2 set.
+- Each received its neutral folder instruction, the identical instructor-authorization prefix used for the prior Luna-2 and Sol-2 conditions, and the exact base variant plus unchanged common tail. TABLEAU runs use the [documented modifier](PROMPTS.md#tableau-modifier) after the base variant and before the tail. Exact launch text is saved in each prompt.md; prefix and modifier are recorded separately in run.json. Task bodies match the corresponding saved Sol conditions except for the HURRY transcription typo documented below; folder paths also differ. No prior conversation, runbook, results, or comparison criteria were passed.
+- Saved outcomes, final messages, run records, frozen submissions, working files, and available local transcripts; retained original folders. No corrective advice, debriefs, repairs, or grading. No packages installed. Previous Sol, Luna, and Claude results and collected metrics are unchanged.
+- Protocol deviation: the coordinator sent “an otherwise” as “anotherwise” in TABLEAU-HURRY’s modifier. Actual launch wording is saved in prompt.md and run.json; expected wording is also recorded. The first attempt continued without corrective feedback or a replacement trial.
+
+**Luna-EXCELLENT-2**
+- Outcome: completed; 6 image files, 1424 answer words, 4 retained work files. [Answer](results/Luna-EXCELLENT-2/frozen/answer.md) · [Final message](results/Luna-EXCELLENT-2/final.md) · [Exact prompt](results/Luna-EXCELLENT-2/prompt.md).
+- Designs: Six deepest 2019–21 reporting-series declines as recovery small multiples, plus all-series shock-versus-endpoint scatter; migration/natural-change scatter with edge markers and RUCC outcome shares; longevity gain versus sex-gap change scatter; county education medians/IQRs by RUCC.
+- Disclosure: Q20 attributes analysis, story selection, designs, code, figures, rationales, critique, and disclosure to Codex at the instructor’s request. Lists Python/p314 and Matplotlib and reports no outside data, web pages, or installations. No sources.txt, consistent with no browsing reported.
+- Inspection: All 20 bold-numbered responses and six PNGs present; archive matches original and contact sheet renders. Critique again questions ordering although the source is ratio-ordered. Q6 reverses the horizontal/vertical zero-line interpretations. County filter requires raw five-digit FIPS without padding, excluding 318 valid-RUCC rows with four-digit IDs; county charts contain 2,788 rather than the prior 3,106 records. Population labels call natural change plus migration total growth without distinguishing the residual. Country analyses explicitly include regional aggregates. Submission preserved without repairs or grading.
+
+**Luna-TABLEAU-PLAIN-2**
+- Outcome: completed; 6 image files, 1282 answer words, 7 retained work files. [Answer](results/Luna-TABLEAU-PLAIN-2/frozen/answer.md) · [Final message](results/Luna-TABLEAU-PLAIN-2/final.md) · [Exact prompt](results/Luna-TABLEAU-PLAIN-2/prompt.md).
+- Designs: Six-country annual sex-gap lines and milestone small multiples; metro/nonmetro county education medians and RUCC boxplots; four-country long-run life expectancy using the supplied OWID file; state natural-change/net-migration scatter classified by signs.
+- Disclosure: Q20 attributes exploration, story/design choices, code, critique, and rationales to Codex, lists Python/p314 and Matplotlib, and explicitly says Tableau was not used. sources.txt lists local materials and reports no web pages.
+- Inspection: All 20 responses and six PNGs present; archive matches original and contact sheet renders. Milestone years are equally spaced and that choice is disclosed. State chart labels all negative-natural/positive-migration cases as offsets without checking magnitudes; West Virginia is a counterexample where the sum remains negative. The title’s 17-of-18 offset claim counts positive migration, not sufficient offsets. Submission preserved without repairs or grading.
+
+**Luna-TABLEAU-HURRY-2**
+- Outcome: completed; 6 image files, 1216 answer words, 3 retained work files. [Answer](results/Luna-TABLEAU-HURRY-2/frozen/answer.md) · [Final message](results/Luna-TABLEAU-HURRY-2/final.md) · [Exact prompt](results/Luna-TABLEAU-HURRY-2/prompt.md).
+- Designs: World and geographic-aggregate sex-gap lines and endpoint dots; county education/unemployment scatter with group fits and attainment-quartile boxplots; migration/natural-change sign scatter; three-year life-expectancy dots for the twelve deepest 2019–21 declines.
+- Disclosure: Q20 attributes question selection, exploration, code, design decisions, rationales, and critique to OpenAI ChatGPT, lists Python/p314 and Matplotlib, and explicitly says Tableau was not used or outside pages opened. No sources.txt; no browsing reported.
+- Inspection: All 20 responses and six PNGs present; archive matches original and contact sheet renders. Regional trend clips the negative early South Asia gap at zero while the alternate shows it. Migration title says offsets but the counted category checks signs rather than magnitude; 52 points outside its window are disclosed. Education uses 3,174 records including 78 Puerto Rico rows; no aggregate FIPS or missing 2023 RUCC rows were found in that plotted subset. Critique repeats the ordering concern. Coordinator launch typo (an otherwise -> anotherwise) is recorded; no corrective advice or replacement attempt. Submission preserved without repairs or grading.
+
+**Luna-TABLEAU-SHOWOFF-2**
+- Outcome: completed; 6 image files, 1221 answer words, 4 retained work files. [Answer](results/Luna-TABLEAU-SHOWOFF-2/frozen/answer.md) · [Final message](results/Luna-TABLEAU-SHOWOFF-2/final.md) · [Exact prompt](results/Luna-TABLEAU-SHOWOFF-2/prompt.md).
+- Designs: Six-country sex-gap lines and sorted 2023 bars; county education/income scatter with group fits and Spearman correlations and pooled-quartile median lines; full-range migration/natural-change scatter; metro/nonmetro education median trends.
+- Disclosure: Q20 attributes stories, analysis, code/chart text, responses, and critique to Codex; names Python/p314, pandas, and Matplotlib and explicitly says Tableau was not used. Identifies instructor-requested examples, not student-authored Tableau work; reports no packages or external pages.
+- Inspection: All 20 responses and six PNGs present; archive matches original and contact sheet renders. Uses conventional lines, bars, scatter, and grouped summaries with worksheet-style palettes. Migration title/rationale equates positive migration with an offset without testing sufficient magnitude, and the full range compresses the dense center. Critique again calls the ratio-ordered source arbitrary. Submission preserved without repairs or grading.
+
+These are single attempts in new prompt conditions. Tableau resemblance and plausible worksheet operations are inspection targets; these outputs do not establish actual Tableau use, student representativeness, or a causal effect of the modifier. EXCELLENT has no matched TABLEAU-EXCELLENT attempt in this batch.
+
+Clock times are October 22, 2026, America/Chicago (CDT, UTC−05:00).
+
+| Condition | Solver start | Solver end | Elapsed | Est. USD |
+|---|---|---|---|---|
+| EXCELLENT | 09:36:49 | 09:47:18 | 10:30 | $0.072089 |
+| TABLEAU-PLAIN | 09:47:51 | 09:54:20 | 6:29 | $0.049422 |
+| TABLEAU-HURRY | 09:54:50 | 10:00:35 | 5:45 | $0.043905 |
+| TABLEAU-SHOWOFF | 10:01:10 | 10:04:48 | 3:38 | $0.028910 |
+| Four solver total | | | 26:22 | $0.194326 |
+
+Coordinator clock: **09:35:57–10:06:36 CDT**, **30:39 elapsed** through the reporting snapshot, including setup, inter-run gaps, archival, and checks.
+Coordination estimate: **$1.786869**; four solvers plus coordination: **$1.981195** through that snapshot.
+
+Available solver token totals: 43,752 ordinary input, 410,700 cache writes, 7,113,934 cache reads, 134,947 output.
+Pricing assumptions reuse prior Luna-2 API-equivalent Standard tier with 30-minute cache writes: USD per million Luna tokens, $0.10 ordinary input / $0.125 cache write / $0.01 cache read / $0.50 output. Sol coordination uses $2.00 / $2.50 / $0.10 / $10.00 in the same order. Official source checked October 22, 2026 (`https://developers.openai.com/api/docs/pricing`). Includes recorded reasoning output. Actual tier, retention, and billed amount are unavailable; unavailable telemetry, unreported charges, and reporting tokens after the snapshot are excluded. Details are in results/Luna-EXCELLENT-TABLEAU-session.json.
+
+The complete nine-condition Luna-2 set totals **68:23** of solver time and **$0.510950** in available solver estimates. Earlier coordination sessions are excluded from this batch total.
