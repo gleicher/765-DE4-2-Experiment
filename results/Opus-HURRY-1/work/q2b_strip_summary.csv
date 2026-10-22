@@ -1,0 +1,11 @@
+panel,group,median_pp,share_ge_3pp
+jump,Large metro (1M+ people),3.4000000000000004,0.6776470588235294
+jump,Smaller metro,2.9000000000000004,0.493844049247606
+jump,"Nonmetro, town 20k+",3.0999999999999996,0.5547445255474452
+jump,"Nonmetro, town 5k–20k",2.6999999999999993,0.420032310177706
+jump,Rural (no town of 5k),1.7999999999999998,0.22032288698955366
+net,Large metro (1M+ people),-0.10000000000000053,0.0
+net,Smaller metro,-0.2999999999999998,0.0
+net,"Nonmetro, town 20k+",-0.20000000000000018,0.0
+net,"Nonmetro, town 5k–20k",-0.2999999999999998,0.0
+net,Rural (no town of 5k),-0.5,0.0

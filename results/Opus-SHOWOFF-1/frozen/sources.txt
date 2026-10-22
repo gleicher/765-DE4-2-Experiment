@@ -1,0 +1,15 @@
+Web pages opened while making this submission: none.
+
+All work used only the local copies provided in reference/ (the assignment page and the pages it links to) and the data in data/:
+- reference/de4-2-assignment.md   (https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/)
+- reference/evaluating-designs.md (https://pages.graphics.cs.wisc.edu/765-25/posts/evaluating-designs/)
+- reference/module-3-rubric.md    (https://pages.graphics.cs.wisc.edu/765-25/posts/module-3-rubric/)
+- reference/two-data-sets.md      (https://pages.graphics.cs.wisc.edu/765-25/posts/two-data-sets/)
+- reference/de4-1.md              (https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-1/)
+- reference/genai-policies.md     (https://pages.graphics.cs.wisc.edu/765-25/pages/genai-policies/)
+- data/README.md, data/census_readme.md, data/lifespan_readme.md, data/life-expectancy-owid/readme.md
+
+Data sources as cited in the figure captions (taken from the data readmes, not looked up online):
+- World Bank, Life expectancy at birth by sex (SP.DYN.LE00), https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+- Our World in Data, Life expectancy long-run data (Riley 2005; Zijdeman et al. 2015; HMD 2024; UN WPP 2024), https://ourworldindata.org/life-expectancy
+- USDA Economic Research Service, County-level data sets, https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/

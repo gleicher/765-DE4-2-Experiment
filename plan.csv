@@ -6,3 +6,7 @@ Codex-HURRY-1,codex,openai.gpt-6.1-sol,HURRY,1
 Codex-CAREFUL-1,codex,openai.gpt-6.1-sol,CAREFUL,1
 Codex-CONCEAL-1,codex,openai.gpt-6.1-sol,CONCEAL,1
 Codex-SHOWOFF-1,codex,openai.gpt-6.1-sol,SHOWOFF,1
+Opus-HURRY-1,claude,opus,HURRY,1
+Opus-CAREFUL-1,claude,opus,CAREFUL,1
+Opus-CONCEAL-1,claude,opus,CONCEAL,1
+Opus-SHOWOFF-1,claude,opus,SHOWOFF,1

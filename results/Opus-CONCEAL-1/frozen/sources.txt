@@ -1,0 +1,1 @@
+No web pages were opened. Everything came from the local copies in reference/ (assignment page and the pages it links to) and the data and readmes in data/.

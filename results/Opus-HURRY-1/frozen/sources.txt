@@ -1,0 +1,13 @@
+Web pages opened while doing this assignment: none.
+
+No online lookups were made. Everything came from the local copies provided:
+- reference/*.md (saved copies of https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/
+  and the pages it links to: 4-1, two-data-sets, evaluating-designs, module-3-rubric, genai-policies)
+- reference/images/to-critique.png (design critiqued in Q1)
+- data/ (765Data repository files: full_census_dataset.csv, lifespan_dataset_1960.csv,
+  life-expectancy-owid/life-expectancy-owid.csv, and their readmes)
+
+Data sources as cited in figure captions (from the provided readmes, not visited):
+- World Bank, Life expectancy at birth (SP.DYN.LE00.IN): https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+- USDA ERS County-level Data Sets: https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/
+- Our World in Data, Life expectancy (Riley 2005; Zijdeman et al. 2015; HMD 2024; UN WPP 2024): https://ourworldindata.org/life-expectancy

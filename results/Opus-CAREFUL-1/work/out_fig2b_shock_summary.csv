@@ -1,0 +1,19 @@
+shock,type,n,q1,median,q3
+Great Recession,Manufacturing,498,3.70,4.90,6.30
+Great Recession,Recreation,326,3.80,5.05,6.57
+Great Recession,Mining,220,2.97,3.95,4.90
+Great Recession,Farming,444,1.20,2.10,3.80
+Great Recession,Nonspecialized,1212,3.30,4.50,5.90
+Great Recession,Federal/state government,397,3.20,4.20,5.70
+Oil-price collapse,Manufacturing,498,-1.80,-1.30,-0.70
+Oil-price collapse,Recreation,329,-2.00,-1.50,-0.90
+Oil-price collapse,Mining,220,-0.20,0.60,1.50
+Oil-price collapse,Farming,444,-1.00,-0.35,0.00
+Oil-price collapse,Nonspecialized,1213,-1.80,-1.20,-0.60
+Oil-price collapse,Federal/state government,398,-1.70,-1.20,-0.60
+COVID-19,Manufacturing,498,2.00,2.80,3.60
+COVID-19,Recreation,329,2.50,3.40,4.60
+COVID-19,Mining,220,2.20,3.10,4.20
+COVID-19,Farming,444,0.50,1.10,1.73
+COVID-19,Nonspecialized,1213,2.00,2.90,3.70
+COVID-19,Federal/state government,398,1.90,2.60,3.48
