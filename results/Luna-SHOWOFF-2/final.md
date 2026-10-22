@@ -1,0 +1,3 @@
+Completed the assignment in `runs/Luna-SHOWOFF-2`: [answer.md](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-SHOWOFF-2/answers/answer.md) contains all 20 numbered responses, and `answers/figures/` contains six figures. The reproducible script and instructions are in [make_figures.py](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-SHOWOFF-2/work/make_figures.py) and [work/README.md](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-SHOWOFF-2/work/README.md).
+
+I regenerated the figures with the specified `p314` Python and visually reviewed their layouts. No web pages were opened; that is recorded in [sources.txt](/Users/mlgleich/Projects/765/765-DE4-2-Experiment/runs/Luna-SHOWOFF-2/answers/sources.txt).

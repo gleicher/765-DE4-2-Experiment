@@ -20,3 +20,7 @@ Luna-CAREFUL-1,codex,openai.gpt-6-luna,CAREFUL,1
 Luna-CONCEAL-1,codex,openai.gpt-6-luna,CONCEAL,1
 Luna-SHOWOFF-1,codex,openai.gpt-6-luna,SHOWOFF,1
 Luna-PLAIN-2,codex,openai.gpt-6-luna,PLAIN,2
+Luna-HURRY-2,codex,openai.gpt-6-luna,HURRY,2
+Luna-CAREFUL-2,codex,openai.gpt-6-luna,CAREFUL,2
+Luna-CONCEAL-2,codex,openai.gpt-6-luna,CONCEAL,2
+Luna-SHOWOFF-2,codex,openai.gpt-6-luna,SHOWOFF,2

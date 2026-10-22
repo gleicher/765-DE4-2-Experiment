@@ -1,0 +1,16 @@
+No web pages were opened.
+
+All sources were local copies supplied with this task:
+- reference/de4-2-assignment.md
+- reference/de4-1.md
+- reference/evaluating-designs.md
+- reference/two-data-sets.md
+- reference/genai-policies.md
+- reference/module-3-rubric.md
+- reference/images/to-critique.png
+- data/README.md
+- data/full_census_dataset.csv
+- data/lifespan_dataset_1960.csv
+- data/census_readme.md
+- data/lifespan_readme.md
+- data/life-expectancy-owid/readme.md

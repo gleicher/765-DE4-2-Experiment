@@ -287,3 +287,13 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
 - Completed all 20 responses and six PNGs; retained plotting script, regeneration README, and local font cache. Q20 attributes all substantive work to AI and identifies the instructor-requested example. No packages installed, corrective advice, or debrief. Saved final, run record, frozen/work copies, and available local transcript.
 - Verified complete numbering, six image links and readable PNGs, archive equality, and unchanged previous collected rows. Updated RESULTS.md and runs.csv without grading or modifying the submission.
 - Solver clock 06:14:50–06:23:49 CDT (8:59). Coordinator clock 06:14:21–06:25:46 (11:25) through reporting snapshot. Standard-tier API-equivalent estimates with 30-minute cache writes: solver $0.063675; coordination $0.425182; combined $0.488857. Actual billing unavailable; session.json records assumptions. Stopped after this attempt.
+
+## 2026-10-22 07:05 — remaining Luna-2 variants
+
+- Mike requested the remainder of Luna-2. Added HURRY-2, CAREFUL-2, CONCEAL-2, and SHOWOFF-2; ran only these four sequentially, with fresh native openai.gpt-6-luna subagents and fork_turns="none". Each received the same instructor-authorization prefix as PLAIN-2, neutral folder instruction, and exact prompt plus common tail. Saved launch prompts.
+- Saved each outcome, final message, run record, frozen answers, working files, and available local transcript; kept original folders. No corrective advice, debriefs, repairs, or grading. Preserved all original refusals, PLAIN-2, and Sol/Claude results.
+- Collected metrics and updated RESULTS.md with completeness, designs, disclosure, and inspection notes. Checked original/archive equality and available PNG rendering; previous collected rows unchanged.
+- Clock 06:28:46–07:05:27 CDT (36:41) through reporting snapshot; new solver total 33:03. Standard-tier API-equivalent estimates with 30-minute cache writes: new solvers $0.252949, coordination $1.561480, combined $1.814429. Full five-run Luna-2 solver estimate including PLAIN-2: $0.316624. Actual billing unavailable. Details in results/Luna-2-remainder-session.json. Stopped after the four new attempts.
+- Before committing, documented the exact prefix and its placement in PROMPTS.md and
+  verified it against all five Luna-2 saved launch prompts and run records. The base
+  prompts and common tail remain unchanged; no additional trials were launched.
