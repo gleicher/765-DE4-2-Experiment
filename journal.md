@@ -208,3 +208,18 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
   or grading the submission. No other rows launched and no debrief sent. Stopped for inspection.
 - Retained the generated font cache locally and excluded it from git because it includes
   machine-specific font inventory details.
+
+## 2026-10-22 — reviewed Codex-PLAIN-1
+
+- Checked numbered answers, figure links, saved/original file equality, figures, working
+  script, data documentation, and available transcript. Confirmed the requested model
+  and p314 command invocations; found no installation commands or experiment-document
+  reads in the logged shell commands. The archived launch task is encrypted, so its exact
+  wording cannot be independently confirmed from that file.
+- Regenerated all six figures in a temporary folder using p314; pixels and printed summary
+  matched the saved versions. Independently spot-checked endpoint differences, county
+  counts, selected education medians, and the 63.3% population-component finding.
+- Found a clear critique error: the supplied income chart is already ordered by ratio.
+  Census figures also omit definitions for rural–urban codes 1–9, limiting standalone
+  interpretation. Recorded findings in RESULTS.md without changing the submission,
+  scripts, or run record. No further assignment attempts or package installations.

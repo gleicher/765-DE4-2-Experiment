@@ -24,11 +24,26 @@
 - Inspection: all six figures render in the contact sheet; no missing submission pieces
   found. Rural–urban groups are labeled by code rather than descriptive names, and the
   cumulative-distribution design requires more explanation than the median comparison.
-  Country selections are explicitly illustrative. This is a completeness and visual check,
-  not independent verification of calculations or grading.
+  Country selections are explicitly illustrative.
+- Review: the saved script regenerated all six figures pixel-for-pixel in a temporary
+  folder, and its printed summary matched the saved summary. Saved answers and working
+  files match the original run folder. Independent spot checks confirmed the life-gap
+  endpoint changes, county sample sizes, selected education medians, and the code-6
+  natural-decrease/nonnegative-migration share (63.3%).
+- Critique error: answer 1 says the supplied chart is not consistently ordered by ratio.
+  Its displayed ratios actually increase from left to right (1.01x to 3.78x).
+  The proposed ratio sorting is already present. The distinction between county median
+  differences and household income inequality is a useful critique.
+- Standalone-design limitation: all three Census figures use codes 1–9 without defining
+  the groups. Readers cannot connect the patterns to county types from the images alone.
+  The original submission has been preserved; no grade assigned.
 - Protocol: launched one fresh native subagent with fork_turns="none", the requested model,
   the run-folder instruction, and the exact PLAIN prompt plus common tail. The runtime
   confirmed the model; its transcript was copied locally. Cost is unavailable.
+  Review confirmed the model and explicit p314 invocations in the transcript, with no
+  installation commands or reads of experiment documents found in the logged shell
+  commands. The launch-task content is encrypted in the copied transcript, so its exact
+  wording could not be independently verified from that archive.
 
 **Opus-PLAIN-1**
 - Complete: answer.md has all 20 Canvas items in order, six figures, and a reproducible
