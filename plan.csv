@@ -41,3 +41,8 @@ Sonnet-EXCELLENT-2,claude,sonnet,EXCELLENT,2
 Sonnet-TABLEAU-PLAIN-2,claude,sonnet,TABLEAU-PLAIN,2
 Sonnet-TABLEAU-HURRY-2,claude,sonnet,TABLEAU-HURRY,2
 Sonnet-TABLEAU-SHOWOFF-2,claude,sonnet,TABLEAU-SHOWOFF,2
+Sonnet-PLAIN-2,claude,sonnet,PLAIN,2
+Sonnet-HURRY-2,claude,sonnet,HURRY,2
+Sonnet-CAREFUL-2,claude,sonnet,CAREFUL,2
+Sonnet-CONCEAL-2,claude,sonnet,CONCEAL,2
+Sonnet-SHOWOFF-2,claude,sonnet,SHOWOFF,2

@@ -1,0 +1,5 @@
+No web pages were opened. Everything came from local files in reference/ and data/ (saved copies of):
+https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/
+https://pages.graphics.cs.wisc.edu/765-25/posts/two-data-sets/
+https://pages.graphics.cs.wisc.edu/765-25/pages/genai-policies/
+https://pages.graphics.cs.wisc.edu/765-25/posts/module-3-rubric/

@@ -1,0 +1,9 @@
+Pages opened online: none. All material was read from local copies saved by the instructor in reference/ and data/.
+Local reference copies (originally from):
+https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/
+https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-1/
+https://pages.graphics.cs.wisc.edu/765-25/posts/evaluating-designs/
+https://pages.graphics.cs.wisc.edu/765-25/posts/module-3-rubric/
+https://pages.graphics.cs.wisc.edu/765-25/posts/two-data-sets/
+https://pages.graphics.cs.wisc.edu/765-25/pages/genai-policies/
+Data (local copies, see data/README.md): USDA ERS county data via https://github.com/uwgraphics/765Data ; World Bank SP.DYN.LE00.IN ; Our World in Data life expectancy (https://ourworldindata.org/life-expectancy)

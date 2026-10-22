@@ -1,0 +1,10 @@
+import sys; sys.path.insert(0,'work')
+from common import *
+w=load_le()
+print(w[~w.country].name.unique()[:5], w[w.country].name.nunique())
+p=w[w.country].pivot(index='name',columns='Year',values='Both')
+d=(p[[2020,2021,2022,2023]].sub(p[2019],axis=0))
+d['min']=d[[2020,2021]].min(axis=1)
+print(d.sort_values('min').head(40).round(1))
+print(w[w.name=='World'].pivot(index='Year',columns='name',values='Both').loc[2017:])
+print(w[w.country].isna().sum()); g=w[w.country&w.Year.isin([1960,2023])].pivot(index='name',columns='Year',values='gap'); print(g.isna().sum()); print(g.sort_values(2023).iloc[[0,1,2,-3,-2,-1]]); print((g[2023]-g[1960]).sort_values().iloc[[0,1,2,3,-4,-3,-2,-1]])

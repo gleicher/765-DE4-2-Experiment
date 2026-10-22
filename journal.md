@@ -336,3 +336,10 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
 - Launch texts were built programmatically from PROMPTS.md (prefix, get_prompt.py base+tail, TABLEAU modifier) and diffed against results/Sol-<condition>-1/prompt.md before each launch: identical except line 1 (and trailing newline). No typos.
 - Saved prompt.md, run.json (with prompt_condition, prompt_prefix, base_prompt, prompt_modifier), final.md, frozen/, work/, and the subagents' agent-<id>.jsonl/.meta.json copies; actual_model claude-sonnet-5-5 from the transcripts. No corrective advice, debriefs, repairs, or grading.
 - Observations in RESULTS.md. Notable: all four Q20s disclose; TABLEAU runs state Tableau was not used; TABLEAU-PLAIN critique is muddled about the ratio ordering; EXCELLENT and TABLEAU-SHOWOFF disclose outside-knowledge labels. Added the PROMPTS.md note. Mike to inspect; nothing committed.
+
+## 2026-10-22 11:00 — Sonnet-2 PLAIN, HURRY, CAREFUL, CONCEAL, SHOWOFF
+
+- Mike asked for the remaining Sonnet-2 cases for comparison with Sonnet-1, noting it is not a clean test. Added the five rows to plan.csv, ran setup_runs.sh for claude, and ran them one at a time with fresh `general-purpose` subagents, `model: "sonnet"` (11:00:27–11:31:44 CDT). All completed 6/6; no refusals.
+- Launch texts (neutral line, authorization prefix, base prompt, common tail) were built programmatically and diffed against the matching `Sol-*-2` prompts: identical except the run-folder line. No typos.
+- Solver time 30.2 min; est. cost $3.97 (PLAIN $0.68, HURRY $0.57, CAREFUL $0.83, CONCEAL $0.56, SHOWOFF $1.33). With the earlier four, the nine-condition Sonnet-2 set is 57.3 min and $7.06. Estimates only; actual billing unavailable.
+- Notable: Sonnet-CONCEAL-2 deleted its three scratch scripts against the instructions (disclosed by the solver; not repaired). Comparison with Sonnet-1 is in RESULTS.md. No debriefs, repairs, or grading. Records, transcripts, frozen submissions and work copies saved. Not committed.

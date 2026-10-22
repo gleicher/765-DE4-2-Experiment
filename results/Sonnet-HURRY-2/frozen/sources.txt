@@ -1,0 +1,4 @@
+No web pages were opened. All material came from local files saved by the instructor:
+reference/de4-2-assignment.md (https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/)
+reference/genai-policies.md, reference/two-data-sets.md, reference/evaluating-designs.md, reference/module-3-rubric.md, reference/de4-1.md
+data/lifespan_dataset_1960.csv (World Bank life expectancy by sex), data/life-expectancy-owid/life-expectancy-owid.csv (Our World in Data), data/full_census_dataset.csv (USDA ERS county data)
