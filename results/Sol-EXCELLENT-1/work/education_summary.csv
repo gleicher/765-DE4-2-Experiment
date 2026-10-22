@@ -1,0 +1,9 @@
+metric,metro,period,n,q25,median,q75
+Without a high school diploma,True,2000,1149,14.4,18.9,25.1
+Without a high school diploma,True,2019-23,1149,6.713114439,9.113211119,12.1410162
+Without a high school diploma,False,2000,1940,17.175,22.5,30.5
+Without a high school diploma,False,2019-23,1940,7.652155306,11.04367907,15.4877458425
+Bachelor’s degree or higher,True,2000,1149,13.0,17.9,25.0
+Bachelor’s degree or higher,True,2019-23,1149,20.44385075,27.17803111,35.7547581
+Bachelor’s degree or higher,False,2000,1940,10.7,13.2,16.4
+Bachelor’s degree or higher,False,2019-23,1940,15.7994760275,19.514501645,24.149912944999997

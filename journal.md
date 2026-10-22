@@ -307,3 +307,10 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
 - Before committing, verified the exact prefix in all five launch prompts and records,
   original/archive equality, all 25 prior collected rows, and the privacy scan. SHOWOFF
   also retained six SVG copies. Transcripts and font inventories remain local and ignored.
+
+## 2026-10-22 09:33 — Sol EXCELLENT and TABLEAU conditions
+
+- Mike requested EXCELLENT, TABLEAU-PLAIN, TABLEAU-HURRY, and TABLEAU-SHOWOFF with Sol 6.1. Added four repetition-1 rows; ran only these conditions sequentially with fresh native openai.gpt-6.1-sol subagents and fork_turns="none". Exact saved launch prompts use the existing instructor prefix, base prompt, optional TABLEAU modifier, and common tail.
+- Saved outcomes, final messages, run records, frozen answers, work, and available local transcripts; original folders retained. No corrective advice, debriefs, repairs, grading, or package installations. Previous results and collected rows preserved.
+- Collected timing/token records and updated RESULTS.md with completeness, designs, disclosure, and conspicuous issues. Checked archive equality and rendered available PNGs. These are individual examples, not evidence of actual Tableau usage or representative student behavior.
+- Clock 09:13:17–09:33:04 CDT (19:47) through reporting snapshot; solver time 16:57. Standard-tier API-equivalent estimates, 30-minute cache writes: solvers $1.398674, coordination $1.167889, total $2.566563. Actual billing unavailable. Details in results/Sol-EXCELLENT-TABLEAU-session.json. Stopped after four attempts.

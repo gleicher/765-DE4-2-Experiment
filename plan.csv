@@ -29,3 +29,7 @@ Sol-HURRY-2,codex,openai.gpt-6.1-sol,HURRY,2
 Sol-CAREFUL-2,codex,openai.gpt-6.1-sol,CAREFUL,2
 Sol-CONCEAL-2,codex,openai.gpt-6.1-sol,CONCEAL,2
 Sol-SHOWOFF-2,codex,openai.gpt-6.1-sol,SHOWOFF,2
+Sol-EXCELLENT-1,codex,openai.gpt-6.1-sol,EXCELLENT,1
+Sol-TABLEAU-PLAIN-1,codex,openai.gpt-6.1-sol,TABLEAU-PLAIN,1
+Sol-TABLEAU-HURRY-1,codex,openai.gpt-6.1-sol,TABLEAU-HURRY,1
+Sol-TABLEAU-SHOWOFF-1,codex,openai.gpt-6.1-sol,TABLEAU-SHOWOFF,1

@@ -1,0 +1,5 @@
+No online pages were opened. All references and data were supplied locally.
+Local assignment: reference/de4-2-assignment.md
+Local linked material consulted: reference/two-data-sets.md, reference/module-3-rubric.md
+Critique image: reference/images/to-critique.png
+Dataset documentation: data/README.md, data/lifespan_readme.md, data/census_readme.md

@@ -37,6 +37,11 @@
 | Sol-CONCEAL-2 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 2.9 | 6/6 | 1312 | 9 | no |
 | Sol-SHOWOFF-2 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 4.5 | 6/6 PNG + SVG | 2361 | 11 | no |
 
+| Sol-EXCELLENT-1 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 5.1 | 6/6 | 2043 | 6 | no |
+| Sol-TABLEAU-PLAIN-1 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 3.0 | 6/6 | 1727 | 10 | no |
+| Sol-TABLEAU-HURRY-1 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 4.1 | 6/6 | 2126 | 10 | no |
+| Sol-TABLEAU-SHOWOFF-1 (instructor prefix) | openai.gpt-6.1-sol (native subagent) | completed | 4.7 | 6/6 | 2142 | 9 | no |
+
 ## Observations
 
 **Codex-PLAIN-1**
@@ -442,3 +447,51 @@ Coordination estimate: **$1.377165**; five solvers plus coordination: **$2.93482
 
 Solver token totals: 38,592 ordinary input, 271,254 cache writes, 3,247,281 cache reads, 47,761 output.
 Pricing assumptions: API-equivalent Standard tier, 30-minute cache writes; USD per million Sol tokens: $2.00 ordinary input / $2.50 cache write / $0.10 cache read / $10.00 output, for both solvers and coordination. Official pricing checked October 22, 2026 (`https://developers.openai.com/api/docs/pricing`). Includes recorded reasoning output. Actual tier, retention, and billed amount are unavailable; unreported charges and reporting tokens after the snapshot are excluded. Coordination sums deduplicated native per-response records for this task. Detailed timings, tokens, and assumptions are in results/Sol-2-session.json. No historical costs were retroactively added.
+
+
+**Sol — EXCELLENT and TABLEAU conditions**
+- Ran only EXCELLENT, TABLEAU-PLAIN, TABLEAU-HURRY, and TABLEAU-SHOWOFF, in that order and sequentially. Each used a fresh native openai.gpt-6.1-sol subagent with fork_turns="none". These are repetition 1 for four new conditions.
+- Each received its neutral folder instruction, the identical instructor-authorization prefix used for Sol-2, and the exact base variant plus unchanged common tail. TABLEAU runs insert the identical [documented modifier](PROMPTS.md#tableau-modifier) after the base variant and before the tail. Exact launch text is saved in each prompt.md; prefix and modifier are recorded separately in run.json. No prior conversation, runbook, results, or comparison criteria were passed.
+- Saved outcomes, final messages, run records, frozen submissions, working files, and available local transcripts; retained original folders. No corrective advice, debriefs, repairs, or grading. No packages installed. Previous Sol, Luna, and Claude results and collected metrics are unchanged.
+
+**Sol-EXCELLENT-1**
+- Outcome: completed; 6 image files, 2043 answer words, 6 retained work files. [Answer](results/Sol-EXCELLENT-1/frozen/answer.md) · [Final message](results/Sol-EXCELLENT-1/final.md) · [Exact prompt](results/Sol-EXCELLENT-1/prompt.md).
+- Designs: Four-country female/male life-expectancy levels and paired changes distinguishing convergence through gains from convergence through losses; migration/natural-change scatter and RUCC outcome shares; sex-specific recovery heatmaps; education medians/IQRs at two attainment thresholds.
+- Disclosure: Header and Q20 explicitly identify an instructor-authorized AI example and attribute question selection, exploration, code, figures, layout changes, critique, and writing to Codex. Reports Python/p314, no web pages, and no installations.
+- Inspection: All 20 responses and six PNGs present; original/archive equality checked and contact sheet renders. At 2,043 words, questions distinguish the meaning of sex-gap narrowing and threshold-dependent educational convergence. Critique recognizes existing ratio ordering. Migration captions disclose 10 metro and 29 nonmetro observations outside the viewing window; all remain in statistics. Submission preserved without grading.
+
+**Sol-TABLEAU-PLAIN-1**
+- Outcome: completed; 6 image files, 1727 answer words, 10 retained work files. [Answer](results/Sol-TABLEAU-PLAIN-1/frozen/answer.md) · [Final message](results/Sol-TABLEAU-PLAIN-1/final.md) · [Exact prompt](results/Sol-TABLEAU-PLAIN-1/prompt.md).
+- Designs: Six-country sex-gap small multiples and a labeled highlight table; population-weighted county education grouped bars and 100% composition bars; baseline-relative recovery small multiples; conditional migration-offset shares as 100% bars.
+- Disclosure: Q20 explicitly identifies a complete instructor-requested Codex example, lists Python/p314 and Matplotlib, and says there was no Tableau use or human manual chart authoring. It explains the intended ordinary rows/columns/marks/calculations/filter/reference-line structures; no web pages or installations reported.
+- Inspection: All 20 responses and six PNGs present; archive matches original and contact sheet renders. Uses panes, highlight-table cells, grouped bars, and 100% bars rather than the endpoint dumbbells and education ECDFs in Sol-PLAIN-2. Education sums category counts before division and allows period-specific coverage; migration uses supplied counts and a strict positive offset, so denominators differ from rate-based prior attempts. Critique recognizes ratio ordering. Submission preserved without grading.
+
+**Sol-TABLEAU-HURRY-1**
+- Outcome: completed; 6 image files, 2126 answer words, 10 retained work files. [Answer](results/Sol-TABLEAU-HURRY-1/frozen/answer.md) · [Final message](results/Sol-TABLEAU-HURRY-1/final.md) · [Exact prompt](results/Sol-TABLEAU-HURRY-1/prompt.md).
+- Designs: Six-Americas-country recovery line panes and baseline-change highlight table; RUCC county-mean education paired dots and grouped bars; male/female endpoint-gain scatter for twelve countries; metro/nonmetro conditional migration categories as 100% bars.
+- Disclosure: Header and Q20 identify an AI-created instructor example, fully attribute questions, analysis, code, figures, critique, and responses to Codex, and explicitly state Tableau was not used. Lists Python/p314 and Matplotlib and discusses possible worksheet operations; no online pages or installations reported.
+- Inspection: All 20 responses and six PNGs present; archive matches original and contact sheet renders. Critique recognizes ratio ordering. County education uses equal-county means rather than PLAIN’s population-weighted shares, and migration offset includes equality (PLAIN uses strict exceedance). Work README maps the designs to possible Tableau operations. Submission preserved without grading.
+
+**Sol-TABLEAU-SHOWOFF-1**
+- Outcome: completed; 6 image files, 2142 answer words, 9 retained work files. [Answer](results/Sol-TABLEAU-SHOWOFF-1/frozen/answer.md) · [Final message](results/Sol-TABLEAU-SHOWOFF-1/final.md) · [Exact prompt](results/Sol-TABLEAU-SHOWOFF-1/prompt.md).
+- Designs: G7 baseline-relative recovery line panes and signed endpoint bars; county migration/natural-change category shares and faceted rate scatter; Japan/South Korea sex-specific longevity lines; 50-state by 17-year unemployment highlight table.
+- Disclosure: Q20 attributes questions, data exploration, checks, code, figures, critique, and prose to Codex and explicitly says Tableau was not used and these are not Tableau exports. Lists Python/p314 and Matplotlib and maps designs to worksheet operations; reports no web sources or external joins.
+- Inspection: All 20 responses and six PNGs present; archive matches original and contact sheet renders. Restrained regular-weight titles and blue/orange/category palettes replace the field-notes treatment in Sol-SHOWOFF-2. No SVG copies produced. Dense 50-state unemployment table merits full-size inspection for label legibility. Critique recognizes ratio sorting; county scatter discloses 12 clipped observations retained in summary. Submission preserved without grading.
+
+These are single attempts in new prompt conditions. Tableau resemblance and plausible worksheet operations are inspection targets; these outputs do not establish actual Tableau use, student representativeness, or a causal effect of the modifier. EXCELLENT has no matched TABLEAU-EXCELLENT attempt in this batch.
+
+Clock times are October 22, 2026, America/Chicago (CDT, UTC−05:00).
+
+| Condition | Solver start | Solver end | Elapsed | Est. USD |
+|---|---|---|---|---|
+| EXCELLENT | 09:14:02 | 09:19:09 | 5:07 | $0.393402 |
+| TABLEAU-PLAIN | 09:19:26 | 09:22:27 | 3:01 | $0.247863 |
+| TABLEAU-HURRY | 09:22:48 | 09:26:51 | 4:03 | $0.335019 |
+| TABLEAU-SHOWOFF | 09:27:12 | 09:31:57 | 4:45 | $0.422390 |
+| Four solver total | | | 16:57 | $1.398674 |
+
+Coordinator clock: **09:13:17–09:33:04 CDT**, **19:47 elapsed** through the reporting snapshot, including setup, inter-run gaps, archival, and checks.
+Coordination estimate: **$1.167889**; four solvers plus coordination: **$2.566563** through that snapshot.
+
+Available solver token totals: 33,738 ordinary input, 231,053 cache writes, 3,138,549 cache reads, 43,971 output.
+Pricing assumptions reuse the Sol-2 API-equivalent Standard tier with 30-minute cache writes: USD per million Sol tokens, $2.00 ordinary input / $2.50 cache write / $0.10 cache read / $10.00 output, for solvers and coordination. Official source checked October 22, 2026 (`https://developers.openai.com/api/docs/pricing`). Includes recorded reasoning output. Actual tier, retention, and billed amount are unavailable; unavailable telemetry, unreported charges, and reporting tokens after the snapshot are excluded. Details are in results/Sol-EXCELLENT-TABLEAU-session.json.
