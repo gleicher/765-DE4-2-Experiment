@@ -1,0 +1,18 @@
+{
+  "employment_counties": 3097,
+  "employment_excluded_incomplete": 7,
+  "employment_group_sizes": {
+    "Metro: code 1": 413,
+    "Metro: codes 2\u20133": 723,
+    "Nonmetro: codes 4\u20139": 1961
+  },
+  "employment_2023_index": {
+    "Metro: code 1": 115.60966016390167,
+    "Metro: codes 2\u20133": 108.37012278941141,
+    "Nonmetro: codes 4\u20139": 96.5813389834088
+  },
+  "natural_decline_counties": 2150,
+  "offset_counties": 1152,
+  "lifespan_spread_1960": 19.2080487804878,
+  "lifespan_spread_2023": 3.242219512195092
+}

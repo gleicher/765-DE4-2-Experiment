@@ -1,0 +1,7 @@
+County identifiers unique; 3,123 U.S. county records before complete-case filtering.
+Six life-expectancy series: complete 34 years × 3 sex series; endpoint total gains all positive.
+All nine growth groups independently recomputed; 3,106 complete cases; component totals match.
+Education shares sum to 100%; 3,087-county balanced panel; headline gap verified: 11.9 → 18.0 percentage points.
+Recovery troughs, deficits, first subsequent threshold crossings, and durations independently verified.
+Six valid 2850 × 1805 PNGs, six matching SVGs, and all 20 Canvas responses with correct upload references.
+PASS. Figure script also checks every visible text extent against the page boundary.

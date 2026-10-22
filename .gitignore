@@ -7,4 +7,6 @@ results/*/agent-*.meta.json
 results/*/rollout-*.jsonl
 # Generated font inventories contain machine-specific details; retain only locally.
 results/*/work/.mplconfig/
+results/*/work/mplconfig/
+results/*/work/**/fontlist-v*.json
 .private-terms

@@ -1,0 +1,11 @@
+No online pages were opened. All sources below were supplied locally.
+
+Assignment: reference/de4-2-assignment.md
+Design evaluation guidance: reference/evaluating-designs.md
+Example rubric: reference/module-3-rubric.md
+Generative AI course policy: reference/genai-policies.md
+Data overview: reference/two-data-sets.md
+Life expectancy documentation: data/lifespan_readme.md
+County documentation: data/census_readme.md
+Critiqued image: reference/images/to-critique.png
+Data used: data/lifespan_dataset_1960.csv; data/full_census_dataset.csv

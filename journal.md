@@ -223,3 +223,20 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
   Census figures also omit definitions for rural–urban codes 1–9, limiting standalone
   interpretation. Recorded findings in RESULTS.md without changing the submission,
   scripts, or run record. No further assignment attempts or package installations.
+
+## 2026-10-22 — remaining Sol prompt variants
+
+- Added Codex-HURRY-1, Codex-CAREFUL-1, Codex-CONCEAL-1, and Codex-SHOWOFF-1 to plan.csv.
+  Ran only those four, sequentially, using fresh native openai.gpt-6.1-sol subagents with
+  fork_turns="none". Each received only its assignment-folder instruction and exact
+  student prompt plus common tail. No corrective advice or debriefs.
+- All four completed with 20 numbered responses, six PNG figures, sources.txt, retained
+  working files, and regeneration README. SHOWOFF additionally exported six SVG copies.
+  All explicitly disclosed AI contributions and reported no browsing or installations.
+- Saved final messages, run records, frozen answers, working files, and available local
+  transcripts; retained original run folders. Runtime logs confirmed the requested model.
+  Collected token counts and artifact metrics into runs.csv; cost remains unavailable.
+- Inspected saved contact sheets and checked copies against originals. Updated RESULTS.md
+  with brief observations without grading or editing submissions. Preserved PLAIN and
+  previous results. Expanded font-cache ignore patterns for the new cache locations while
+  retaining those files locally. Stopped after the four attempts for Mike's inspection.

@@ -2,3 +2,7 @@ run_id,harness,model,prompt,rep
 Codex-PLAIN-1,codex,openai.gpt-6.1-sol,PLAIN,1
 Opus-PLAIN-1,claude,opus,PLAIN,1
 Sonnet-PLAIN-1,claude,sonnet,PLAIN,1
+Codex-HURRY-1,codex,openai.gpt-6.1-sol,HURRY,1
+Codex-CAREFUL-1,codex,openai.gpt-6.1-sol,CAREFUL,1
+Codex-CONCEAL-1,codex,openai.gpt-6.1-sol,CONCEAL,1
+Codex-SHOWOFF-1,codex,openai.gpt-6.1-sol,SHOWOFF,1

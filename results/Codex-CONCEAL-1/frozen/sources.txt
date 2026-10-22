@@ -1,0 +1,16 @@
+No online pages were opened. All reference material and data were supplied locally.
+
+Local assignment and guidance consulted:
+reference/de4-2-assignment.md
+reference/two-data-sets.md
+reference/module-3-rubric.md
+reference/evaluating-designs.md
+reference/genai-policies.md
+reference/images/to-critique.png
+
+Local data and documentation consulted:
+data/README.md
+data/census_readme.md
+data/lifespan_readme.md
+data/full_census_dataset.csv
+data/lifespan_dataset_1960.csv

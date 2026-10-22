@@ -1,0 +1,613 @@
+Country Name,Country Code,Sex,Year,Life Expectancy (years)
+China,CHN,Both,1990,68.155
+India,IND,Both,1990,58.618
+Japan,JPN,Both,1990,78.8370731707317
+Russian Federation,RUS,Both,1990,68.8860975609756
+United States,USA,Both,1990,75.2146341463415
+South Africa,ZAF,Both,1990,62.942
+China,CHN,Male,1990,65.861
+India,IND,Male,1990,57.963
+Japan,JPN,Male,1990,75.92
+Russian Federation,RUS,Male,1990,63.73
+United States,USA,Male,1990,71.8
+South Africa,ZAF,Male,1990,59.477
+China,CHN,Female,1990,70.561
+India,IND,Female,1990,59.358
+Japan,JPN,Female,1990,81.9
+Russian Federation,RUS,Female,1990,74.3
+United States,USA,Female,1990,78.8
+South Africa,ZAF,Female,1990,66.891
+China,CHN,Both,1991,68.61
+India,IND,Both,1991,59.032
+Japan,JPN,Both,1991,79.0368292682927
+Russian Federation,RUS,Both,1991,68.4743902439024
+United States,USA,Both,1991,75.3658536585366
+South Africa,ZAF,Both,1991,62.983
+China,CHN,Male,1991,66.288
+India,IND,Male,1991,58.34
+Japan,JPN,Male,1991,76.11
+Russian Federation,RUS,Male,1991,63.45
+United States,USA,Male,1991,72.0
+South Africa,ZAF,Male,1991,59.495
+China,CHN,Female,1991,71.049
+India,IND,Female,1991,59.805
+Japan,JPN,Female,1991,82.11
+Russian Federation,RUS,Female,1991,73.75
+United States,USA,Female,1991,78.9
+South Africa,ZAF,Female,1991,66.966
+China,CHN,Both,1992,69.059
+India,IND,Both,1992,59.445
+Japan,JPN,Both,1992,79.080243902439
+Russian Federation,RUS,Both,1992,66.8731707317073
+United States,USA,Both,1992,75.6170731707317
+South Africa,ZAF,Both,1992,62.839
+China,CHN,Male,1992,66.755
+India,IND,Male,1992,58.728
+Japan,JPN,Male,1992,76.09
+Russian Federation,RUS,Male,1992,62.0
+United States,USA,Male,1992,72.3
+South Africa,ZAF,Male,1992,59.365
+China,CHN,Female,1992,71.476
+India,IND,Female,1992,60.236
+Japan,JPN,Female,1992,82.22
+Russian Federation,RUS,Female,1992,71.99
+United States,USA,Female,1992,79.1
+South Africa,ZAF,Female,1992,66.807
+China,CHN,Both,1993,69.492
+India,IND,Both,1993,59.823
+Japan,JPN,Both,1993,79.3036585365854
+Russian Federation,RUS,Both,1993,64.9358536585366
+United States,USA,Both,1993,75.419512195122
+South Africa,ZAF,Both,1993,62.618
+China,CHN,Male,1993,67.108
+India,IND,Male,1993,59.094
+Japan,JPN,Male,1993,76.25
+Russian Federation,RUS,Male,1993,58.97
+United States,USA,Male,1993,72.2
+South Africa,ZAF,Male,1993,59.111
+China,CHN,Female,1993,72.01
+India,IND,Female,1993,60.617
+Japan,JPN,Female,1993,82.51
+Russian Federation,RUS,Female,1993,71.2
+United States,USA,Female,1993,78.8
+South Africa,ZAF,Female,1993,66.504
+China,CHN,Both,1994,69.835
+India,IND,Both,1994,60.237
+Japan,JPN,Both,1994,79.6968292682927
+Russian Federation,RUS,Both,1994,64.4670731707317
+United States,USA,Both,1994,75.619512195122
+South Africa,ZAF,Both,1994,62.069
+China,CHN,Male,1994,67.409
+India,IND,Male,1994,59.492
+Japan,JPN,Male,1994,76.57
+Russian Federation,RUS,Male,1994,57.55
+United States,USA,Male,1994,72.4
+South Africa,ZAF,Male,1994,58.799
+China,CHN,Female,1994,72.41
+India,IND,Female,1994,61.041
+Japan,JPN,Female,1994,82.98
+Russian Federation,RUS,Female,1994,71.73
+United States,USA,Female,1994,79.0
+South Africa,ZAF,Female,1994,65.986
+China,CHN,Both,1995,70.363
+India,IND,Both,1995,60.63
+Japan,JPN,Both,1995,79.5360975609756
+Russian Federation,RUS,Both,1995,64.6907317073171
+United States,USA,Both,1995,75.6219512195122
+South Africa,ZAF,Both,1995,61.603
+China,CHN,Male,1995,67.866
+India,IND,Male,1995,59.868
+Japan,JPN,Male,1995,76.38
+Russian Federation,RUS,Male,1995,58.12
+United States,USA,Male,1995,72.5
+South Africa,ZAF,Male,1995,58.282
+China,CHN,Female,1995,73.02
+India,IND,Female,1995,61.442
+Japan,JPN,Female,1995,82.85
+Russian Federation,RUS,Female,1995,71.59
+United States,USA,Female,1995,78.9
+South Africa,ZAF,Female,1995,65.158
+China,CHN,Both,1996,70.823
+India,IND,Both,1996,61.027
+Japan,JPN,Both,1996,80.219756097561
+Russian Federation,RUS,Both,1996,65.8541463414634
+United States,USA,Both,1996,76.0268292682927
+South Africa,ZAF,Both,1996,61.079
+China,CHN,Male,1996,68.323
+India,IND,Male,1996,60.244
+Japan,JPN,Male,1996,77.01
+Russian Federation,RUS,Male,1996,59.62
+United States,USA,Male,1996,73.1
+South Africa,ZAF,Male,1996,57.778
+China,CHN,Female,1996,73.483
+India,IND,Female,1996,61.858
+Japan,JPN,Female,1996,83.59
+Russian Federation,RUS,Female,1996,72.4
+United States,USA,Female,1996,79.1
+South Africa,ZAF,Female,1996,64.462
+China,CHN,Both,1997,71.227
+India,IND,Both,1997,61.439
+Japan,JPN,Both,1997,80.4241463414634
+Russian Federation,RUS,Both,1997,66.6987804878049
+United States,USA,Both,1997,76.4292682926829
+South Africa,ZAF,Both,1997,60.538
+China,CHN,Male,1997,68.731
+India,IND,Male,1997,60.623
+Japan,JPN,Male,1997,77.19
+Russian Federation,RUS,Male,1997,60.85
+United States,USA,Male,1997,73.6
+South Africa,ZAF,Male,1997,57.218
+China,CHN,Female,1997,73.887
+India,IND,Female,1997,62.3
+Japan,JPN,Female,1997,83.82
+Russian Federation,RUS,Female,1997,72.84
+United States,USA,Female,1997,79.4
+South Africa,ZAF,Female,1997,63.657
+China,CHN,Both,1998,71.601
+India,IND,Both,1998,61.852
+Japan,JPN,Both,1998,80.5014634146342
+Russian Federation,RUS,Both,1998,67.029756097561
+United States,USA,Both,1998,76.5804878048781
+South Africa,ZAF,Both,1998,59.912
+China,CHN,Male,1998,69.124
+India,IND,Male,1998,60.99
+Japan,JPN,Male,1998,77.16
+Russian Federation,RUS,Male,1998,61.22
+United States,USA,Male,1998,73.8
+South Africa,ZAF,Male,1998,56.715
+China,CHN,Female,1998,74.242
+India,IND,Female,1998,62.759
+Japan,JPN,Female,1998,84.01
+Russian Federation,RUS,Female,1998,73.13
+United States,USA,Female,1998,79.5
+South Africa,ZAF,Female,1998,62.897
+China,CHN,Both,1999,71.952
+India,IND,Both,1999,62.284
+Japan,JPN,Both,1999,80.4609756097561
+Russian Federation,RUS,Both,1999,65.9821951219512
+United States,USA,Both,1999,76.5829268292683
+South Africa,ZAF,Both,1999,59.19
+China,CHN,Male,1999,69.522
+India,IND,Male,1999,61.367
+Japan,JPN,Male,1999,77.1
+Russian Federation,RUS,Male,1999,59.87
+United States,USA,Male,1999,73.9
+South Africa,ZAF,Male,1999,56.11
+China,CHN,Female,1999,74.54
+India,IND,Female,1999,63.248
+Japan,JPN,Female,1999,83.99
+Russian Federation,RUS,Female,1999,72.4
+United States,USA,Female,1999,79.4
+South Africa,ZAF,Female,1999,62.047
+China,CHN,Both,2000,72.288
+India,IND,Both,2000,62.749
+Japan,JPN,Both,2000,81.0760975609756
+Russian Federation,RUS,Both,2000,65.4836585365854
+United States,USA,Both,2000,76.6365853658537
+South Africa,ZAF,Both,2000,58.368
+China,CHN,Male,2000,69.85
+India,IND,Male,2000,61.76
+Japan,JPN,Male,2000,77.72
+Russian Federation,RUS,Male,2000,59.03
+United States,USA,Male,2000,74.1
+South Africa,ZAF,Male,2000,55.415
+China,CHN,Female,2000,74.895
+India,IND,Female,2000,63.794
+Japan,JPN,Female,2000,84.6
+Russian Federation,RUS,Female,2000,72.26
+United States,USA,Female,2000,79.3
+South Africa,ZAF,Female,2000,61.082
+China,CHN,Both,2001,72.675
+India,IND,Both,2001,63.158
+Japan,JPN,Both,2001,81.4163414634146
+Russian Federation,RUS,Both,2001,65.3834146341463
+United States,USA,Both,2001,76.8365853658537
+South Africa,ZAF,Both,2001,57.161
+China,CHN,Male,2001,70.235
+India,IND,Male,2001,62.102
+Japan,JPN,Male,2001,78.07
+Russian Federation,RUS,Male,2001,58.92
+United States,USA,Male,2001,74.3
+South Africa,ZAF,Male,2001,54.583
+China,CHN,Female,2001,75.287
+India,IND,Female,2001,64.277
+Japan,JPN,Female,2001,84.93
+Russian Federation,RUS,Female,2001,72.17
+United States,USA,Female,2001,79.5
+South Africa,ZAF,Female,2001,59.491
+China,CHN,Both,2002,73.034
+India,IND,Both,2002,63.649
+Japan,JPN,Both,2002,81.6907317073171
+Russian Federation,RUS,Both,2002,65.1287804878049
+United States,USA,Both,2002,76.9365853658537
+South Africa,ZAF,Both,2002,55.58
+China,CHN,Male,2002,70.587
+India,IND,Male,2002,62.515
+Japan,JPN,Male,2002,78.32
+Russian Federation,RUS,Male,2002,58.68
+United States,USA,Male,2002,74.4
+South Africa,ZAF,Male,2002,53.215
+China,CHN,Female,2002,75.657
+India,IND,Female,2002,64.855
+Japan,JPN,Female,2002,85.23
+Russian Federation,RUS,Female,2002,71.9
+United States,USA,Female,2002,79.6
+South Africa,ZAF,Female,2002,57.703
+China,CHN,Both,2003,73.385
+India,IND,Both,2003,64.086
+Japan,JPN,Both,2003,81.76
+Russian Federation,RUS,Both,2003,65.0275609756098
+United States,USA,Both,2003,77.0365853658537
+South Africa,ZAF,Both,2003,54.245
+China,CHN,Male,2003,70.931
+India,IND,Male,2003,62.882
+Japan,JPN,Male,2003,78.36
+Russian Federation,RUS,Male,2003,58.53
+United States,USA,Male,2003,74.5
+South Africa,ZAF,Male,2003,51.993
+China,CHN,Female,2003,76.022
+India,IND,Female,2003,65.376
+Japan,JPN,Female,2003,85.33
+Russian Federation,RUS,Female,2003,71.85
+United States,USA,Female,2003,79.7
+South Africa,ZAF,Female,2003,56.266
+China,CHN,Both,2004,73.727
+India,IND,Both,2004,64.484
+Japan,JPN,Both,2004,82.030243902439
+Russian Federation,RUS,Both,2004,65.4709756097561
+United States,USA,Both,2004,77.4878048780488
+South Africa,ZAF,Both,2004,53.963
+China,CHN,Male,2004,71.27
+India,IND,Male,2004,63.221
+Japan,JPN,Male,2004,78.64
+Russian Federation,RUS,Male,2004,58.91
+United States,USA,Male,2004,75.0
+South Africa,ZAF,Male,2004,51.915
+China,CHN,Female,2004,76.37
+India,IND,Female,2004,65.844
+Japan,JPN,Female,2004,85.59
+Russian Federation,RUS,Female,2004,72.36
+United States,USA,Female,2004,80.1
+South Africa,ZAF,Female,2004,55.754
+China,CHN,Both,2005,74.085
+India,IND,Both,2005,64.939
+Japan,JPN,Both,2005,81.9551219512195
+Russian Federation,RUS,Both,2005,65.529756097561
+United States,USA,Both,2005,77.4878048780488
+South Africa,ZAF,Both,2005,53.914
+China,CHN,Male,2005,71.595
+India,IND,Male,2005,63.608
+Japan,JPN,Male,2005,78.56
+Russian Federation,RUS,Male,2005,58.92
+United States,USA,Male,2005,75.0
+South Africa,ZAF,Male,2005,52.088
+China,CHN,Female,2005,76.769
+India,IND,Female,2005,66.376
+Japan,JPN,Female,2005,85.52
+Russian Federation,RUS,Female,2005,72.47
+United States,USA,Female,2005,80.1
+South Africa,ZAF,Female,2005,55.465
+China,CHN,Both,2006,74.404
+India,IND,Both,2006,65.373
+Japan,JPN,Both,2006,82.3219512195122
+Russian Federation,RUS,Both,2006,66.7275609756098
+United States,USA,Both,2006,77.6878048780488
+South Africa,ZAF,Both,2006,54.22
+China,CHN,Male,2006,71.904
+India,IND,Male,2006,63.989
+Japan,JPN,Male,2006,79.0
+Russian Federation,RUS,Male,2006,60.43
+United States,USA,Male,2006,75.2
+South Africa,ZAF,Male,2006,52.233
+China,CHN,Female,2006,77.1
+India,IND,Female,2006,66.873
+Japan,JPN,Female,2006,85.81
+Russian Federation,RUS,Female,2006,73.34
+United States,USA,Female,2006,80.3
+South Africa,ZAF,Female,2006,55.926
+China,CHN,Both,2007,74.789
+India,IND,Both,2007,65.803
+Japan,JPN,Both,2007,82.5070731707317
+Russian Federation,RUS,Both,2007,67.5868292682927
+United States,USA,Both,2007,77.9878048780488
+South Africa,ZAF,Both,2007,54.948
+China,CHN,Male,2007,72.326
+India,IND,Male,2007,64.373
+Japan,JPN,Male,2007,79.19
+Russian Federation,RUS,Male,2007,61.46
+United States,USA,Male,2007,75.5
+South Africa,ZAF,Male,2007,52.715
+China,CHN,Female,2007,77.436
+India,IND,Female,2007,67.358
+Japan,JPN,Female,2007,85.99
+Russian Federation,RUS,Female,2007,74.02
+United States,USA,Female,2007,80.6
+South Africa,ZAF,Female,2007,56.887
+China,CHN,Both,2008,74.833
+India,IND,Both,2008,66.247
+Japan,JPN,Both,2008,82.5875609756098
+Russian Federation,RUS,Both,2008,67.9492682926829
+United States,USA,Both,2008,78.0390243902439
+South Africa,ZAF,Both,2008,55.982
+China,CHN,Male,2008,72.361
+India,IND,Male,2008,64.778
+Japan,JPN,Male,2008,79.29
+Russian Federation,RUS,Male,2008,61.92
+United States,USA,Male,2008,75.6
+South Africa,ZAF,Male,2008,53.511
+China,CHN,Female,2008,77.498
+India,IND,Female,2008,67.844
+Japan,JPN,Female,2008,86.05
+Russian Federation,RUS,Female,2008,74.28
+United States,USA,Female,2008,80.6
+South Africa,ZAF,Female,2008,58.146
+China,CHN,Both,2009,75.317
+India,IND,Both,2009,66.7
+Japan,JPN,Both,2009,82.9314634146342
+Russian Federation,RUS,Both,2009,68.6846341463415
+United States,USA,Both,2009,78.390243902439
+South Africa,ZAF,Both,2009,57.413
+China,CHN,Male,2009,72.801
+India,IND,Male,2009,65.203
+Japan,JPN,Male,2009,79.59
+Russian Federation,RUS,Male,2009,62.87
+United States,USA,Male,2009,76.0
+South Africa,ZAF,Male,2009,54.816
+China,CHN,Female,2009,78.033
+India,IND,Female,2009,68.327
+Japan,JPN,Female,2009,86.44
+Russian Federation,RUS,Female,2009,74.79
+United States,USA,Female,2009,80.9
+South Africa,ZAF,Female,2009,59.69
+China,CHN,Both,2010,75.668
+India,IND,Both,2010,67.162
+Japan,JPN,Both,2010,82.8426829268293
+Russian Federation,RUS,Both,2010,68.8412195121951
+United States,USA,Both,2010,78.5414634146342
+South Africa,ZAF,Both,2010,58.886
+China,CHN,Male,2010,73.191
+India,IND,Male,2010,65.644
+Japan,JPN,Male,2010,79.55
+Russian Federation,RUS,Male,2010,63.09
+United States,USA,Male,2010,76.2
+South Africa,ZAF,Male,2010,56.197
+China,CHN,Female,2010,78.329
+India,IND,Female,2010,68.809
+Japan,JPN,Female,2010,86.3
+Russian Federation,RUS,Female,2010,74.88
+United States,USA,Female,2010,81.0
+South Africa,ZAF,Female,2010,61.237
+China,CHN,Both,2011,75.889
+India,IND,Both,2011,67.623
+Japan,JPN,Both,2011,82.5912195121951
+Russian Federation,RUS,Both,2011,69.6839024390244
+United States,USA,Both,2011,78.6414634146341
+South Africa,ZAF,Both,2011,60.602
+China,CHN,Male,2011,73.334
+India,IND,Male,2011,66.094
+Japan,JPN,Male,2011,79.44
+Russian Federation,RUS,Male,2011,64.04
+United States,USA,Male,2011,76.3
+South Africa,ZAF,Male,2011,57.735
+China,CHN,Female,2011,78.65
+India,IND,Female,2011,69.28
+Japan,JPN,Female,2011,85.9
+Russian Federation,RUS,Female,2011,75.61
+United States,USA,Female,2011,81.1
+South Africa,ZAF,Female,2011,63.139
+China,CHN,Both,2012,76.2
+India,IND,Both,2012,68.076
+Japan,JPN,Both,2012,83.0960975609756
+Russian Federation,RUS,Both,2012,70.0721951219512
+United States,USA,Both,2012,78.7414634146342
+South Africa,ZAF,Both,2012,61.737
+China,CHN,Male,2012,73.624
+India,IND,Male,2012,66.544
+Japan,JPN,Male,2012,79.94
+Russian Federation,RUS,Male,2012,64.56
+United States,USA,Male,2012,76.4
+South Africa,ZAF,Male,2012,58.714
+China,CHN,Female,2012,78.981
+India,IND,Female,2012,69.735
+Japan,JPN,Female,2012,86.41
+Russian Federation,RUS,Female,2012,75.86
+United States,USA,Female,2012,81.2
+South Africa,ZAF,Female,2012,64.427
+China,CHN,Both,2013,76.452
+India,IND,Both,2013,68.499
+Japan,JPN,Both,2013,83.3319512195122
+Russian Federation,RUS,Both,2013,70.5787804878049
+United States,USA,Both,2013,78.7414634146342
+South Africa,ZAF,Both,2013,62.388
+China,CHN,Male,2013,73.881
+India,IND,Male,2013,66.97
+Japan,JPN,Male,2013,80.21
+Russian Federation,RUS,Male,2013,65.13
+United States,USA,Male,2013,76.4
+South Africa,ZAF,Male,2013,59.233
+China,CHN,Female,2013,79.223
+India,IND,Female,2013,70.151
+Japan,JPN,Female,2013,86.61
+Russian Federation,RUS,Female,2013,76.3
+United States,USA,Female,2013,81.2
+South Africa,ZAF,Female,2013,65.244
+China,CHN,Both,2014,76.714
+India,IND,Both,2014,68.932
+Japan,JPN,Both,2014,83.5878048780488
+Russian Federation,RUS,Both,2014,70.7436585365854
+United States,USA,Both,2014,78.8414634146341
+South Africa,ZAF,Both,2014,63.184
+China,CHN,Male,2014,74.119
+India,IND,Male,2014,67.416
+Japan,JPN,Male,2014,80.5
+Russian Federation,RUS,Male,2014,65.29
+United States,USA,Male,2014,76.5
+South Africa,ZAF,Male,2014,59.91
+China,CHN,Female,2014,79.51
+India,IND,Female,2014,70.567
+Japan,JPN,Female,2014,86.83
+Russian Federation,RUS,Female,2014,76.47
+United States,USA,Female,2014,81.3
+South Africa,ZAF,Female,2014,66.184
+China,CHN,Both,2015,76.975
+India,IND,Both,2015,69.326
+Japan,JPN,Both,2015,83.7939024390244
+Russian Federation,RUS,Both,2015,71.1834146341463
+United States,USA,Both,2015,78.690243902439
+South Africa,ZAF,Both,2015,64.053
+China,CHN,Male,2015,74.365
+India,IND,Male,2015,67.827
+Japan,JPN,Male,2015,80.75
+Russian Federation,RUS,Male,2015,65.92
+United States,USA,Male,2015,76.3
+South Africa,ZAF,Male,2015,60.802
+China,CHN,Female,2015,79.785
+India,IND,Female,2015,70.94
+Japan,JPN,Female,2015,86.99
+Russian Federation,RUS,Female,2015,76.71
+United States,USA,Female,2015,81.2
+South Africa,ZAF,Female,2015,67.027
+China,CHN,Both,2016,77.214
+India,IND,Both,2016,69.709
+Japan,JPN,Both,2016,83.9848780487805
+Russian Federation,RUS,Both,2016,71.6512195121951
+United States,USA,Both,2016,78.5390243902439
+South Africa,ZAF,Both,2016,64.749
+China,CHN,Male,2016,74.575
+India,IND,Male,2016,68.231
+Japan,JPN,Male,2016,80.98
+Russian Federation,RUS,Male,2016,66.5
+United States,USA,Male,2016,76.1
+South Africa,ZAF,Male,2016,61.332
+China,CHN,Female,2016,80.052
+India,IND,Female,2016,71.297
+Japan,JPN,Female,2016,87.14
+Russian Federation,RUS,Female,2016,77.06
+United States,USA,Female,2016,81.1
+South Africa,ZAF,Female,2016,67.916
+China,CHN,Both,2017,77.235
+India,IND,Both,2017,70.068
+Japan,JPN,Both,2017,84.099756097561
+Russian Federation,RUS,Both,2017,72.4514634146342
+United States,USA,Both,2017,78.5390243902439
+South Africa,ZAF,Both,2017,65.422
+China,CHN,Male,2017,74.448
+India,IND,Male,2017,68.61
+Japan,JPN,Male,2017,81.09
+Russian Federation,RUS,Male,2017,67.51
+United States,USA,Male,2017,76.1
+South Africa,ZAF,Male,2017,61.98
+China,CHN,Female,2017,80.27
+India,IND,Female,2017,71.632
+Japan,JPN,Female,2017,87.26
+Russian Federation,RUS,Female,2017,77.64
+United States,USA,Female,2017,81.1
+South Africa,ZAF,Female,2017,68.58
+China,CHN,Both,2018,77.709
+India,IND,Both,2018,70.415
+Japan,JPN,Both,2018,84.2109756097561
+Russian Federation,RUS,Both,2018,72.6621951219512
+United States,USA,Both,2018,78.6390243902439
+South Africa,ZAF,Both,2018,65.726
+China,CHN,Male,2018,75.034
+India,IND,Male,2018,68.973
+Japan,JPN,Male,2018,81.25
+Russian Federation,RUS,Male,2018,67.75
+United States,USA,Male,2018,76.2
+South Africa,ZAF,Male,2018,62.296
+China,CHN,Female,2018,80.573
+India,IND,Female,2018,71.963
+Japan,JPN,Female,2018,87.32
+Russian Federation,RUS,Female,2018,77.82
+United States,USA,Female,2018,81.2
+South Africa,ZAF,Female,2018,68.906
+China,CHN,Both,2019,77.94
+India,IND,Both,2019,70.746
+Japan,JPN,Both,2019,84.3563414634146
+Russian Federation,RUS,Both,2019,73.0839024390244
+United States,USA,Both,2019,78.7878048780488
+South Africa,ZAF,Both,2019,66.071
+China,CHN,Male,2019,75.303
+India,IND,Male,2019,69.312
+Japan,JPN,Male,2019,81.41
+Russian Federation,RUS,Male,2019,68.24
+United States,USA,Male,2019,76.3
+South Africa,ZAF,Male,2019,62.696
+China,CHN,Female,2019,80.747
+India,IND,Female,2019,72.287
+Japan,JPN,Female,2019,87.45
+Russian Federation,RUS,Female,2019,78.17
+United States,USA,Female,2019,81.4
+South Africa,ZAF,Female,2019,69.216
+China,CHN,Both,2020,78.019
+India,IND,Both,2020,70.156
+Japan,JPN,Both,2020,84.56
+Russian Federation,RUS,Both,2020,71.3387804878049
+United States,USA,Both,2020,76.9804878048781
+South Africa,ZAF,Both,2020,65.15
+China,CHN,Male,2020,75.245
+India,IND,Male,2020,68.529
+Japan,JPN,Male,2020,81.56
+Russian Federation,RUS,Male,2020,66.49
+United States,USA,Male,2020,74.2
+South Africa,ZAF,Male,2020,62.174
+China,CHN,Female,2020,80.999
+India,IND,Female,2020,71.938
+Japan,JPN,Female,2020,87.71
+Russian Federation,RUS,Female,2020,76.43
+United States,USA,Female,2020,79.9
+South Africa,ZAF,Female,2020,67.948
+China,CHN,Both,2021,78.117
+India,IND,Both,2021,67.282
+Japan,JPN,Both,2021,84.4456097560976
+Russian Federation,RUS,Both,2021,69.900243902439
+United States,USA,Both,2021,76.3292682926829
+South Africa,ZAF,Both,2021,62.01
+China,CHN,Male,2021,75.486
+India,IND,Male,2021,65.87
+Japan,JPN,Male,2021,81.47
+Russian Federation,RUS,Male,2021,65.51
+United States,USA,Male,2021,73.5
+South Africa,ZAF,Male,2021,59.193
+China,CHN,Female,2021,80.912
+India,IND,Female,2021,68.835
+Japan,JPN,Female,2021,87.57
+Russian Federation,RUS,Female,2021,74.51
+United States,USA,Female,2021,79.3
+South Africa,ZAF,Female,2021,64.772
+China,CHN,Both,2022,78.202
+India,IND,Both,2022,71.698
+Japan,JPN,Both,2022,83.9963414634146
+Russian Federation,RUS,Both,2022,72.5456097560976
+United States,USA,Both,2022,77.4341463414634
+South Africa,ZAF,Both,2022,65.454
+China,CHN,Male,2022,75.467
+India,IND,Male,2022,70.237
+Japan,JPN,Male,2022,81.05
+Russian Federation,RUS,Male,2022,67.57
+United States,USA,Male,2022,74.8
+South Africa,ZAF,Male,2022,61.813
+China,CHN,Female,2022,81.133
+India,IND,Female,2022,73.271
+Japan,JPN,Female,2022,87.09
+Russian Federation,RUS,Female,2022,77.77
+United States,USA,Female,2022,80.2
+South Africa,ZAF,Female,2022,69.037
+China,CHN,Both,2023,77.953
+India,IND,Both,2023,72.003
+Japan,JPN,Both,2023,84.0412195121951
+Russian Federation,RUS,Both,2023,73.2546341463415
+United States,USA,Both,2023,78.3853658536585
+South Africa,ZAF,Both,2023,66.139
+China,CHN,Male,2023,75.201
+India,IND,Male,2023,70.522
+Japan,JPN,Male,2023,81.09
+Russian Federation,RUS,Male,2023,68.04
+United States,USA,Male,2023,75.8
+South Africa,ZAF,Male,2023,62.609
+China,CHN,Female,2023,80.926
+India,IND,Female,2023,73.598
+Japan,JPN,Female,2023,87.14
+Russian Federation,RUS,Female,2023,78.73
+United States,USA,Female,2023,81.1
+South Africa,ZAF,Female,2023,69.599

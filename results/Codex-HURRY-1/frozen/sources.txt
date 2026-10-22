@@ -1,0 +1,13 @@
+No external web pages were opened. All references and data were read from the supplied local reference/ and data/ directories.
+
+Local references consulted:
+reference/de4-2-assignment.md
+reference/module-3-rubric.md
+reference/genai-policies.md
+reference/two-data-sets.md
+reference/images/to-critique.png
+reference/evaluating-designs.md
+
+data/README.md
+data/census_readme.md
+data/lifespan_readme.md
