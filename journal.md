@@ -297,3 +297,13 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
 - Before committing, documented the exact prefix and its placement in PROMPTS.md and
   verified it against all five Luna-2 saved launch prompts and run records. The base
   prompts and common tail remain unchanged; no additional trials were launched.
+
+## 2026-10-22 07:36 — Sol-2 with instructor prefix
+
+- Mike requested a Sol repeat using the new prefix and confirmed all five variants. Added Sol-PLAIN-2, HURRY-2, CAREFUL-2, CONCEAL-2, and SHOWOFF-2; ran sequentially with fresh native openai.gpt-6.1-sol subagents and fork_turns="none". Exact prefix matches Luna-2 and is documented in PROMPTS.md plus every saved launch prompt.
+- All five completed 20 responses and six PNGs. Saved final messages, records, frozen answers, work, and available local transcripts; originals retained. No corrective advice, debriefs, repairs, grading, or package installations. Existing results and collected metrics preserved.
+- Collected telemetry, checked archive equality and PNG rendering, and added descriptive comparisons in RESULTS.md. Explicit instructor-example framing is visible; common chart families recur and PLAIN repeats the ratio-ordering critique error. One attempt per condition is not definitive.
+- Clock 07:14:21–07:36:04 CDT (21:43) through reporting snapshot; solver time 17:51. Standard-tier API-equivalent estimates, 30-minute cache writes: solvers $1.557658, coordination $1.377165, total $2.934823. Actual billing unavailable. Details in results/Sol-2-session.json. Stopped after five attempts for inspection.
+- Before committing, verified the exact prefix in all five launch prompts and records,
+  original/archive equality, all 25 prior collected rows, and the privacy scan. SHOWOFF
+  also retained six SVG copies. Transcripts and font inventories remain local and ignored.

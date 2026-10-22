@@ -1,0 +1,16 @@
+No online pages were opened. Only supplied local references and data were used.
+
+Local references read:
+reference/de4-2-assignment.md
+reference/two-data-sets.md
+reference/module-3-rubric.md
+reference/evaluating-designs.md
+reference/genai-policies.md
+reference/images/to-critique.png
+
+data/lifespan_readme.md
+data/census_readme.md
+
+Datasets used:
+data/lifespan_dataset_1960.csv
+data/full_census_dataset.csv

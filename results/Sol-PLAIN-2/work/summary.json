@@ -1,0 +1,21 @@
+{
+  "growth_count": 3106,
+  "education_count": 3087,
+  "excluded_growth": 0,
+  "excluded_education": 19,
+  "growth_max_abs": 130.8878306379367,
+  "education_medians": {
+    "metro": [
+      14.2,
+      27.17803111
+    ],
+    "nonmetro": [
+      10.9,
+      19.514501645
+    ]
+  },
+  "offset_percent": {
+    "metro": 67.39864864864865,
+    "nonmetro": 48.75239923224568
+  }
+}

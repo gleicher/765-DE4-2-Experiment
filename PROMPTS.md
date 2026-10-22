@@ -1,6 +1,6 @@
 # Prompts (verbatim)
 
-Default runs use a student prompt plus the common tail. The Luna-2 runs additionally used
+Default runs use a student prompt plus the common tail. The Luna-2 and Sol-2 runs additionally used
 the instructor-authorization prefix documented below. A debrief is optional and is sent
 to the same solver only after the submission and working files have been saved.
 
@@ -67,3 +67,15 @@ verbatim prefix in `run.json`'s `prompt_prefix` field.
 
 `scripts/get_prompt.py` continues to print only the original variant and common tail.
 The coordinator added this prefix when launching the Luna-2 solvers.
+
+## Sol-2 reuse of the instructor-authorization prefix
+
+All five `Sol-*-2` trials used the exact paragraph above, in the same position: after
+the neutral run-folder instruction and before the unchanged variant prompt and common
+tail. Each used a fresh native `openai.gpt-6.1-sol` subagent with `fork_turns="none"`,
+matching the model used for the original `Codex-*-1` Sol trials.
+
+The Sol-2 series permits an informal comparison of the instructor-authorized condition
+with the original student-framed Sol attempts. It does not establish a causal effect
+from one attempt per variant. Exact launch text and the verbatim prefix are saved in
+each new result folder's `prompt.md` and `run.json`. No debrief was sent.

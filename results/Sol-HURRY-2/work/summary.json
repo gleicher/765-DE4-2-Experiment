@@ -1,0 +1,74 @@
+{
+  "education_n": 3089,
+  "education_medians": {
+    "Percent of adults with a bachelor's degree or higher, 2000": {
+      "Metro (1\u20133)": 17.9,
+      "Nonmetro (4\u20137)": 14.0,
+      "Nonmetro (8\u20139)": 12.45
+    },
+    "Percent of adults with a bachelor's degree or higher, 2019-23": {
+      "Metro (1\u20133)": 27.17803111,
+      "Nonmetro (4\u20137)": 20.20221343,
+      "Nonmetro (8\u20139)": 18.881609415
+    },
+    "gain": {
+      "Metro (1\u20133)": 8.81075977,
+      "Nonmetro (4\u20137)": 6.285647539999999,
+      "Nonmetro (8\u20139)": 6.245607760000001
+    }
+  },
+  "groups_n": {
+    "Metro (1\u20133)": 1149,
+    "Nonmetro (4\u20137)": 892,
+    "Nonmetro (8\u20139)": 1048
+  },
+  "migration_n": 3106,
+  "natural_decline_n": 2150,
+  "offset_n": 1152,
+  "recovery": {
+    "2020": {
+      "Japan": 0.203658536585408,
+      "Sweden": -0.7536585365854052,
+      "United States": -1.807317073170708,
+      "Chile": -0.9749999999999943,
+      "Mexico": -4.081000000000003,
+      "South Africa": -0.9209999999999923
+    },
+    "2021": {
+      "Japan": 0.08926829268300196,
+      "Sweden": -0.05365853658540232,
+      "United States": -2.4585365853659056,
+      "Chile": -1.4479999999999933,
+      "Mexico": -4.780000000000001,
+      "South Africa": -4.061
+    },
+    "2022": {
+      "Japan": -0.35999999999999943,
+      "Sweden": -0.05121951219510379,
+      "United States": -1.3536585365853995,
+      "Chile": -1.1479999999999961,
+      "Mexico": -0.5570000000000022,
+      "South Africa": -0.6170000000000044
+    },
+    "2023": {
+      "Japan": -0.3151219512194956,
+      "Sweden": 0.20000000000000284,
+      "United States": -0.4024390243903042,
+      "Chile": 0.8430000000000035,
+      "Mexico": 0.5390000000000015,
+      "South Africa": 0.06799999999999784
+    }
+  },
+  "gap_endpoints": {
+    "1990": {
+      "Chile": 6.356000000000009,
+      "Japan": 5.980000000000004,
+      "United States": 7.0
+    },
+    "2023": {
+      "Chile": 3.8440000000000083,
+      "Japan": 6.049999999999997,
+      "United States": 5.299999999999997
+    }
+  }
+}

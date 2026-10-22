@@ -24,3 +24,8 @@ Luna-HURRY-2,codex,openai.gpt-6-luna,HURRY,2
 Luna-CAREFUL-2,codex,openai.gpt-6-luna,CAREFUL,2
 Luna-CONCEAL-2,codex,openai.gpt-6-luna,CONCEAL,2
 Luna-SHOWOFF-2,codex,openai.gpt-6-luna,SHOWOFF,2
+Sol-PLAIN-2,codex,openai.gpt-6.1-sol,PLAIN,2
+Sol-HURRY-2,codex,openai.gpt-6.1-sol,HURRY,2
+Sol-CAREFUL-2,codex,openai.gpt-6.1-sol,CAREFUL,2
+Sol-CONCEAL-2,codex,openai.gpt-6.1-sol,CONCEAL,2
+Sol-SHOWOFF-2,codex,openai.gpt-6.1-sol,SHOWOFF,2

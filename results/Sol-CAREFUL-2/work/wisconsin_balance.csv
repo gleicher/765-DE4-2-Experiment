@@ -1,0 +1,73 @@
+FIPS Code,Area name,Group,Natural Change Rate 2023,Net Migration Rate 2023,Balance,Class
+55001,Adams County,Nonmetro,-9.1,18.3,9.200000000000001,Migration offsets natural loss
+55003,Ashland County,Nonmetro,-2.4,4.9,2.5000000000000004,Migration offsets natural loss
+55005,Barron County,Nonmetro,-3.4,6.0,2.6,Migration offsets natural loss
+55007,Bayfield County,Nonmetro,-4.5,11.1,6.6,Migration offsets natural loss
+55009,Brown County,Metro,2.7,2.2,4.9,Natural change ≥ 0
+55011,Buffalo County,Nonmetro,-1.3,3.7,2.4000000000000004,Migration offsets natural loss
+55013,Burnett County,Nonmetro,-7.8,13.8,6.000000000000001,Migration offsets natural loss
+55015,Calumet County,Metro,1.1,8.2,9.299999999999999,Natural change ≥ 0
+55017,Chippewa County,Metro,-0.1,3.3,3.1999999999999997,Migration offsets natural loss
+55019,Clark County,Nonmetro,5.2,-3.9,1.3000000000000003,Natural change ≥ 0
+55021,Columbia County,Metro,-0.9,-1.5,-2.4,Natural loss not offset
+55023,Crawford County,Nonmetro,-2.3,-2.1,-4.4,Natural loss not offset
+55025,Dane County,Metro,3.5,9.7,13.2,Natural change ≥ 0
+55027,Dodge County,Nonmetro,-3.5,1.8,-1.7,Natural loss not offset
+55029,Door County,Nonmetro,-5.5,5.8,0.2999999999999998,Migration offsets natural loss
+55031,Douglas County,Metro,-2.0,2.8,0.7999999999999998,Migration offsets natural loss
+55033,Dunn County,Nonmetro,0.8,3.0,3.8,Natural change ≥ 0
+55035,Eau Claire County,Metro,0.9,9.4,10.3,Natural change ≥ 0
+55037,Florence County,Nonmetro,-7.9,2.8,-5.1000000000000005,Natural loss not offset
+55039,Fond du Lac County,Metro,-1.3,2.6,1.3,Migration offsets natural loss
+55041,Forest County,Nonmetro,-6.9,6.1,-0.8000000000000007,Natural loss not offset
+55043,Grant County,Nonmetro,-0.2,2.0,1.8,Migration offsets natural loss
+55045,Green County,Metro,-1.2,3.1,1.9000000000000001,Migration offsets natural loss
+55047,Green Lake County,Nonmetro,-4.3,11.6,7.3,Migration offsets natural loss
+55049,Iowa County,Metro,2.0,-2.0,0.0,Natural change ≥ 0
+55051,Iron County,Nonmetro,-10.9,15.9,5.0,Migration offsets natural loss
+55053,Jackson County,Nonmetro,-1.1,-0.7,-1.8,Natural loss not offset
+55055,Jefferson County,Nonmetro,-0.8,1.0,0.19999999999999996,Migration offsets natural loss
+55057,Juneau County,Nonmetro,-5.7,-1.0,-6.7,Natural loss not offset
+55059,Kenosha County,Metro,0.3,-1.3,-1.0,Natural change ≥ 0
+55061,Kewaunee County,Metro,-0.4,2.2,1.8000000000000003,Migration offsets natural loss
+55063,La Crosse County,Metro,0.1,1.8,1.9000000000000001,Natural change ≥ 0
+55065,Lafayette County,Nonmetro,4.8,-2.6,2.1999999999999997,Natural change ≥ 0
+55067,Langlade County,Nonmetro,-6.7,1.7,-5.0,Natural loss not offset
+55069,Lincoln County,Nonmetro,-6.4,8.2,1.799999999999999,Migration offsets natural loss
+55071,Manitowoc County,Nonmetro,-2.4,4.0,1.6,Migration offsets natural loss
+55073,Marathon County,Metro,0.5,4.3,4.8,Natural change ≥ 0
+55075,Marinette County,Nonmetro,-5.7,9.0,3.3,Migration offsets natural loss
+55077,Marquette County,Nonmetro,-7.8,11.8,4.000000000000001,Migration offsets natural loss
+55078,Menominee County,Nonmetro,-1.2,6.2,5.0,Migration offsets natural loss
+55079,Milwaukee County,Metro,2.6,-4.6,-1.9999999999999996,Natural change ≥ 0
+55081,Monroe County,Nonmetro,0.8,4.8,5.6,Natural change ≥ 0
+55083,Oconto County,Metro,-2.1,4.0,1.9,Migration offsets natural loss
+55085,Oneida County,Nonmetro,-6.7,7.5,0.7999999999999998,Migration offsets natural loss
+55087,Outagamie County,Metro,2.7,2.3,5.0,Natural change ≥ 0
+55089,Ozaukee County,Metro,-0.7,5.6,4.8999999999999995,Migration offsets natural loss
+55091,Pepin County,Nonmetro,-0.8,9.4,8.6,Migration offsets natural loss
+55093,Pierce County,Metro,0.7,10.4,11.1,Natural change ≥ 0
+55095,Polk County,Nonmetro,-3.6,8.4,4.800000000000001,Migration offsets natural loss
+55097,Portage County,Nonmetro,-1.4,6.9,5.5,Migration offsets natural loss
+55099,Price County,Nonmetro,-8.3,4.2,-4.1000000000000005,Natural loss not offset
+55101,Racine County,Metro,0.0,3.3,3.3,Natural change ≥ 0
+55103,Richland County,Nonmetro,-3.3,7.3,4.0,Migration offsets natural loss
+55105,Rock County,Metro,0.4,2.3,2.6999999999999997,Natural change ≥ 0
+55107,Rusk County,Nonmetro,-8.3,11.4,3.0999999999999996,Migration offsets natural loss
+55109,St. Croix County,Metro,2.4,5.9,8.3,Natural change ≥ 0
+55111,Sauk County,Nonmetro,-0.5,2.8,2.3,Migration offsets natural loss
+55113,Sawyer County,Nonmetro,-7.5,9.1,1.5999999999999996,Migration offsets natural loss
+55115,Shawano County,Nonmetro,-1.6,4.6,2.9999999999999996,Migration offsets natural loss
+55117,Sheboygan County,Metro,-0.9,1.7,0.7999999999999999,Migration offsets natural loss
+55119,Taylor County,Nonmetro,-0.3,6.1,5.8,Migration offsets natural loss
+55121,Trempealeau County,Nonmetro,2.5,-2.3,0.20000000000000018,Natural change ≥ 0
+55123,Vernon County,Metro,1.6,1.8,3.4000000000000004,Natural change ≥ 0
+55125,Vilas County,Nonmetro,-8.3,14.3,6.0,Migration offsets natural loss
+55127,Walworth County,Nonmetro,-1.3,2.8,1.4999999999999998,Migration offsets natural loss
+55129,Washburn County,Nonmetro,-9.1,12.6,3.5,Migration offsets natural loss
+55131,Washington County,Metro,-0.4,3.5,3.1,Migration offsets natural loss
+55133,Waukesha County,Metro,-0.5,6.2,5.7,Migration offsets natural loss
+55135,Waupaca County,Nonmetro,-5.4,3.1,-2.3000000000000003,Natural loss not offset
+55137,Waushara County,Nonmetro,-6.0,6.3,0.2999999999999998,Migration offsets natural loss
+55139,Winnebago County,Metro,0.1,6.0,6.1,Natural change ≥ 0
+55141,Wood County,Nonmetro,-4.3,6.5,2.2,Migration offsets natural loss

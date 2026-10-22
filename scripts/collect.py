@@ -19,7 +19,8 @@ FIELDS = [
 ]
 # USD per million tokens: (input, cache write, cache read, output). Anthropic first-party list
 # prices as of 2026-10-06 (cache write = 1.25x input, 5-minute cache). Runs actually go
-# through a cloud provider, not Anthropic's API, so these are API-equivalent estimates. Add Codex once Mike supplies a price.
+# through a cloud provider, not Anthropic's API, so these are API-equivalent estimates.
+# Codex estimates are configured separately below.
 PRICES = {
     "claude-opus-5-5": (4.00, 5.00, 0.20, 20.00),
     "claude-sonnet-5-5": (2.00, 2.50, 0.20, 10.00),
@@ -106,17 +107,23 @@ def codex_usage(folder):
         "output_tokens": last.get("output_tokens", 0),
         "output_tokens_est": last.get("output_tokens", 0),
     }
+    prices = None
     if models == {"openai.gpt-6-luna"}:
+        prices = (.10, .125, .01, .50)
+    elif models == {"openai.gpt-6.1-sol"} and folder.name.startswith("Sol-"):
+        # Preserve historical Codex-* accounting; estimate the new Sol-* trials.
+        prices = (2.00, 2.50, .10, 10.00)
+    if prices:
         # API-equivalent estimate, Standard tier, 30-minute cache writes.
         # Official pricing fetched 2026-10-22:
         # https://developers.openai.com/api/docs/pricing
-        # USD/MTok: input .10, cache write .125, cache read .01, output .50.
+        # USD/MTok: (ordinary input, cache write, cache read, output).
         writes = last.get("cache_write_input_tokens", 0)
         totals["input_tokens"] -= writes
         totals["cache_write_tokens"] = writes
         totals["cost_usd_est"] = round(
-            (totals["input_tokens"] * .10 + writes * .125
-             + cached * .01 + totals["output_tokens"] * .50) / 1e6, 6)
+            (totals["input_tokens"] * prices[0] + writes * prices[1]
+             + cached * prices[2] + totals["output_tokens"] * prices[3]) / 1e6, 6)
     return totals
 FIGURE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".svg", ".pdf"}
 

@@ -1,0 +1,9 @@
+No online pages were opened. All references were read from the supplied local files.
+Local references read:
+reference/de4-2-assignment.md
+reference/module-3-rubric.md
+reference/two-data-sets.md
+reference/genai-policies.md
+reference/images/to-critique.png
+reference/evaluating-designs.md
+Data documentation: data/README.md, data/lifespan_readme.md, data/census_readme.md

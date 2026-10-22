@@ -1,0 +1,28 @@
+{
+  "migration": {
+    "Metro": {
+      "Natural decline, not offset": 191,
+      "Natural decline, offset": 398,
+      "Natural gain, net gain": 456,
+      "Natural gain, net loss": 112
+    },
+    "Nonmetro": {
+      "Natural decline, not offset": 798,
+      "Natural decline, offset": 763,
+      "Natural gain, net gain": 243,
+      "Natural gain, net loss": 145
+    }
+  },
+  "migration_n": 3106,
+  "education_n": 3089,
+  "education_medians": {
+    "less_hs_decline": {
+      "Metro": 9.429,
+      "Nonmetro": 11.55
+    },
+    "ba_gain": {
+      "Metro": 8.811,
+      "Nonmetro": 6.258
+    }
+  }
+}

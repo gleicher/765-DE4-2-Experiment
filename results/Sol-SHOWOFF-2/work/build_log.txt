@@ -1,0 +1,49 @@
+{
+  "migration": {
+    "Metro": {
+      "Natural decline, not offset": 191,
+      "Natural decline, offset": 398,
+      "Natural gain, net gain": 456,
+      "Natural gain, net loss": 112
+    },
+    "Nonmetro": {
+      "Natural decline, not offset": 798,
+      "Natural decline, offset": 763,
+      "Natural gain, net gain": 243,
+      "Natural gain, net loss": 145
+    }
+  },
+  "migration_n": 3106,
+  "education_n": 3089,
+  "education_medians": {
+    "less_hs_decline": {
+      "Metro": 9.429,
+      "Nonmetro": 11.55
+    },
+    "ba_gain": {
+      "Metro": 8.811,
+      "Nonmetro": 6.258
+    }
+  }
+}
+   0        1    2        3         4    5
+2007    Metro 2007 4.534243  0.000000 1149
+2007    Metro 2008 5.736233  1.201990 1149
+2007    Metro 2009 9.204890  4.670647 1149
+2007    Metro 2010 9.611337  5.077094 1149
+2007    Metro 2011 8.943696  4.409454 1149
+2007 Nonmetro 2007 5.190671  0.000000 1940
+2007 Nonmetro 2008 6.157069  0.966398 1940
+2007 Nonmetro 2009 9.688879  4.498208 1940
+2007 Nonmetro 2010 9.859137  4.668466 1940
+2007 Nonmetro 2011 9.079985  3.889314 1940
+2019    Metro 2019 3.617327  0.000000 1149
+2019    Metro 2020 8.226568  4.609241 1149
+2019    Metro 2021 5.433986  1.816660 1149
+2019    Metro 2022 3.642724  0.025397 1149
+2019    Metro 2023 3.641358  0.024031 1149
+2019 Nonmetro 2019 4.054447  0.000000 1945
+2019 Nonmetro 2020 7.033998  2.979551 1945
+2019 Nonmetro 2021 4.767247  0.712800 1945
+2019 Nonmetro 2022 3.695061 -0.359386 1945
+2019 Nonmetro 2023 3.641741 -0.412706 1945
