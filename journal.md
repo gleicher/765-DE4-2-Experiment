@@ -194,3 +194,17 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
   Do not repeat an assignment just to obtain telemetry; leave unavailable fields blank.
 - Changed the collector's missing-token note to describe optional telemetry as unavailable.
   No runs launched or existing results changed.
+
+## 2026-10-21 21:15 — pilot: Codex-PLAIN-1
+
+- Mike requested only Codex-PLAIN-1 using openai.gpt-6.1-sol. Prepared its assignment folder
+  and launched one fresh native subagent with fork_turns="none", only its folder instruction,
+  and the PLAIN prompt plus common tail. Runtime confirmed the requested model.
+- Completed in 3.7 minutes with all 20 numbered responses, six PNG figures, sources.txt,
+  and 12 working files including a script and regeneration README. Saved the final message,
+  run record, frozen answers, working files, and local transcript; retained the run folder.
+- Collected available token telemetry and updated runs.csv and RESULTS.md. Cost unavailable;
+  no packages requested. Checked completeness and the figure contact sheet without repairing
+  or grading the submission. No other rows launched and no debrief sent. Stopped for inspection.
+- Retained the generated font cache locally and excluded it from git because it includes
+  machine-specific font inventory details.
