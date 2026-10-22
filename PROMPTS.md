@@ -142,3 +142,9 @@ feedback or a replacement trial.
 The other three task bodies match their Sol counterparts verbatim; only run-folder
 paths differ. All four use the unchanged authorization prefix above. No debriefs were
 sent, and existing results were preserved.
+
+## Sonnet-2 EXCELLENT and TABLEAU additions
+
+The same four conditions were added to the instructor-authorized set as `Sonnet-EXCELLENT-2`, `Sonnet-TABLEAU-PLAIN-2`, `Sonnet-TABLEAU-HURRY-2`, and `Sonnet-TABLEAU-SHOWOFF-2`. They ran sequentially on October 22, 2026 with fresh Claude Code `general-purpose` subagents (`model: "sonnet"`, never `fork`), matching the `Sonnet-*-1` model.
+
+Each launch text was extracted programmatically from this file in the order: run-folder line (naming `CLAUDE.md`), the authorization prefix, the base prompt, the TABLEAU modifier where applicable (all three paragraphs), and the common tail. Before launch each was checked identical to the corresponding `Sol-<condition>-1/prompt.md` except for the run-folder line. The exact text and verbatim prefix/modifier are in each result folder's `prompt.md` and `run.json`. No debriefs were sent, and existing results were preserved.

@@ -328,3 +328,11 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
 - Reconciled solver elapsed times and cost estimates in all five batch session JSON files against the individual run records and runs.csv. Recent summaries distinguish solver totals from coordination and describe the pricing assumptions and reporting snapshot.
 - The current convention is RUNBOOK §5's short session summary, not an exhaustive command log. Historical headings sometimes omit clock times or appear out of date order; they remain as recorded. EXCELLENT and TABLEAU prompt additions are documented in PROMPTS.md and the subsequent run summaries, rather than separate prompt-edit entries.
 - No trials launched or submissions changed. Previous history retained; this audit is an append-only addition.
+
+## 2026-10-22 10:25 — Sonnet-2 EXCELLENT and TABLEAU additions
+
+- Ran only the four requested rows (Sonnet-EXCELLENT-2, Sonnet-TABLEAU-PLAIN-2, Sonnet-TABLEAU-HURRY-2, Sonnet-TABLEAU-SHOWOFF-2) with fresh `general-purpose` subagents, `model: "sonnet"`, one at a time (10:25–10:54 CDT). All completed, 6/6 figures; no refusals. Est. cost $3.09 for the four; actual billing unavailable.
+- Appended the rows to plan.csv and ran setup_runs.sh for claude; existing runs and results untouched.
+- Launch texts were built programmatically from PROMPTS.md (prefix, get_prompt.py base+tail, TABLEAU modifier) and diffed against results/Sol-<condition>-1/prompt.md before each launch: identical except line 1 (and trailing newline). No typos.
+- Saved prompt.md, run.json (with prompt_condition, prompt_prefix, base_prompt, prompt_modifier), final.md, frozen/, work/, and the subagents' agent-<id>.jsonl/.meta.json copies; actual_model claude-sonnet-5-5 from the transcripts. No corrective advice, debriefs, repairs, or grading.
+- Observations in RESULTS.md. Notable: all four Q20s disclose; TABLEAU runs state Tableau was not used; TABLEAU-PLAIN critique is muddled about the ratio ordering; EXCELLENT and TABLEAU-SHOWOFF disclose outside-knowledge labels. Added the PROMPTS.md note. Mike to inspect; nothing committed.

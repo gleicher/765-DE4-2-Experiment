@@ -37,3 +37,7 @@ Luna-EXCELLENT-2,codex,openai.gpt-6-luna,EXCELLENT,2
 Luna-TABLEAU-PLAIN-2,codex,openai.gpt-6-luna,TABLEAU-PLAIN,2
 Luna-TABLEAU-HURRY-2,codex,openai.gpt-6-luna,TABLEAU-HURRY,2
 Luna-TABLEAU-SHOWOFF-2,codex,openai.gpt-6-luna,TABLEAU-SHOWOFF,2
+Sonnet-EXCELLENT-2,claude,sonnet,EXCELLENT,2
+Sonnet-TABLEAU-PLAIN-2,claude,sonnet,TABLEAU-PLAIN,2
+Sonnet-TABLEAU-HURRY-2,claude,sonnet,TABLEAU-HURRY,2
+Sonnet-TABLEAU-SHOWOFF-2,claude,sonnet,TABLEAU-SHOWOFF,2

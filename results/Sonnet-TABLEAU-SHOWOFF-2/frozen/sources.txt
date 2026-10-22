@@ -1,0 +1,2 @@
+No web pages were opened. All material came from local files saved by the instructor in reference/ and data/ (copies of https://pages.graphics.cs.wisc.edu/765-25/design-exercises/4-2/ and linked pages, plus the course data files).
+The USDA rural-urban continuum code descriptions used as axis labels (codes 1-9) come from my background knowledge of the USDA ERS classification, not from a page opened in this session.

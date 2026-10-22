@@ -1,0 +1,1 @@
+No web pages were opened. All work used the local files in data/ and reference/ (saved copies of the assignment page, grading pages, and data readmes).
