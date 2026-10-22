@@ -76,12 +76,15 @@ Do not install packages automatically or replace `p314` with another Python envi
 You MUST save the solver's final message in `results/RUN_ID/final.md`, record its end time and
 status in `run.json`, and copy `answers/` to `results/RUN_ID/frozen/` and `work/` to
 `results/RUN_ID/work/`. Keep the original run folder too. Save a transcript or session
-reference when the runtime exposes one; missing telemetry is fine. In Claude Code, copy the
+reference when readily available. Telemetry is optional: missing logs, token counts, or cost
+estimates MUST NOT block completion or make a run unsuccessful. Do not rerun an assignment
+just to obtain telemetry. In Claude Code, when available, copy the
 solver's `agent-<id>.jsonl` and `.meta.json` from
 `~/.claude/projects/<this-folder>/<session>/subagents/` into `results/RUN_ID/`, and take
-`actual_model` from the `message.model` field of its assistant entries. In Codex, copy the session log
+`actual_model` from the `message.model` field of its assistant entries. In Codex, when available, copy the session log
 (`~/.codex/sessions/.../rollout-*.jsonl` for the solver's thread) into `results/RUN_ID/`.
-`collect.py` reads token counts and estimates cost from these copies, so don't skip them.
+`collect.py` reads token counts and estimates cost from these copies when present. Otherwise,
+leave unavailable fields blank and briefly note the reporting limitation.
 These logs stay local (git-ignored): they contain the user-level harness configuration.
 
 **Keep employer and infrastructure details out of git.** Before committing, scan everything

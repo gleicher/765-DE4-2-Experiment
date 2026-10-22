@@ -25,6 +25,7 @@ answers and images in `answers/`.
 Keep a saved submission, working files, final agent message, approximate duration, and short
 notes. Save transcripts when available. Debriefs are optional; token accounting, cost
 estimates, intermediate snapshots, and exhaustive command journals are not required.
+Missing telemetry does not block completion or make a run unsuccessful.
 
 ## Files
 

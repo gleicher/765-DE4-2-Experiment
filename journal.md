@@ -186,3 +186,11 @@ Format: `## YYYY-MM-DD HH:MM` heading, then what was done, results, and why.
   branch `backup-before-squash`). Set this repo's git identity to the one used for 26ee4d6
   (repo-local config) and re-authored the commit, since the global identity is a work one.
   Scan of the commit's content and metadata: only false positives.
+
+## 2026-10-22 — telemetry clarification
+
+- Made RUNBOOK and README consistent: save readily available transcripts, but missing logs,
+  token counts, or cost estimates do not block completion or make an attempt unsuccessful.
+  Do not repeat an assignment just to obtain telemetry; leave unavailable fields blank.
+- Changed the collector's missing-token note to describe optional telemetry as unavailable.
+  No runs launched or existing results changed.

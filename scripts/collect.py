@@ -161,7 +161,7 @@ for planned in plan:
     if tokens:
         row.update(tokens)
     elif "no token data" not in notes:
-        notes = "; ".join(filter(None, (notes, "no token data (transcript not copied?)")))
+        notes = "; ".join(filter(None, (notes, "no token data (optional telemetry unavailable)")))
     row["debrief"] = "yes" if (folder / "debrief" / "ABOUT.md").is_file() else "no"
     row["notes"] = notes
     rows.append(row)
