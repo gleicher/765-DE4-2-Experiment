@@ -1,0 +1,27 @@
+{
+  "run_id": "Luna-PLAIN-2",
+  "condition": "PLAIN with instructor-authorization prefix",
+  "start": "2026-10-22T06:14:21.767000-05:00",
+  "end": "2026-10-22T06:25:46.685252-05:00",
+  "elapsed_seconds": 684.918252,
+  "solver_elapsed_seconds": 538.818,
+  "solver_tokens": {
+    "input_tokens": 14100,
+    "cache_write_tokens": 143260,
+    "cache_read_tokens": 2297684,
+    "output_tokens": 42762
+  },
+  "solver_cost_usd_est": 0.063675,
+  "coordinator_model": "openai.gpt-6.1-sol",
+  "coordinator_tokens_at_reporting_snapshot": {
+    "input_tokens": 2040,
+    "cache_write_tokens": 23239,
+    "cache_read_tokens": 2385248,
+    "output_tokens": 12448
+  },
+  "coordinator_cost_usd_est_at_reporting_snapshot": 0.425182,
+  "total_cost_usd_est_at_reporting_snapshot": 0.488857,
+  "pricing_assumptions": "API-equivalent Standard tier with 30-minute cache writes. USD/MTok: Luna input 0.10, cache write 0.125, cache read 0.01, output 0.50; Sol coordination 2.00, 2.50, 0.10, 10.00. Output includes recorded reasoning. Actual billing tier and retention unknown; not an actual bill. Excludes unreported charges and reporting tokens after snapshot.",
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "pricing_checked": "2026-10-22"
+}
